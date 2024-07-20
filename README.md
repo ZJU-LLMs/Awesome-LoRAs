@@ -365,7 +365,7 @@ Low-Rank Adaptation(LoRA), which updates the dense neural network layers with pl
 
     *Zhu Y, Wichers N, Lin C, Wang X, Chen T, Shu L, Lu H, Liu C, Luo L, Chen J, Meng L.* 2023
 
-  ...
+    ...
 
 ## Efficiency Improving
 
