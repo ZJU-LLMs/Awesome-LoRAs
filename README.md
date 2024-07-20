@@ -67,6 +67,8 @@ Low-Rank Adaptation(LoRA), which updates the dense neural network layers with pl
       - [Audio-Text](#audio-text)
       - [Image-Text](#image-text)
       - [Video-Text](#video-text)
+  - [How do we create this repository?](#how-do-we-create-this-repository)
+    - [We will continue to update the repository regularly...](#we-will-continue-to-update-the-repository-regularly)
   - [Contribution](#contribution)
   - [Citations](#citations)
 
@@ -106,36 +108,28 @@ Low-Rank Adaptation(LoRA), which updates the dense neural network layers with pl
 
 ### <img src="./fig/star.svg" width="15" height="15" /> Beyond Fine-tuning
 
-1. **ReLoRA: High-rank training through low-rank updates.** `NeurIPS Workshop`. 
-    
+1. **ReLoRA: High-rank training through low-rank updates.** `NeurIPS Workshop`.  
   *Lialin V, Muckatira S, Shivagunde N, Rumshisky A.* 2023
 
-2. **MoRA: High-rank updating for parameter-efficient fine-tuning.** `preprint`
-
+2. **MoRA: High-rank updating for parameter-efficient fine-tuning.** `preprint`  
   *Jiang T, Huang S, Luo S, Zhang Z, Huang H, Wei F, Deng W, Sun F, Zhang Q, Wang D, others.* 2024
 
-3. **Training neural networks from scratch with parallel low-rank adapters.** `preprint`
-
+3. **Training neural networks from scratch with parallel low-rank adapters.** `preprint`  
   *Huh M, Cheung B, Bernstein J, Isola P, Agrawal P.* 2024
 
-4. **InfLoRA: Interference-free low-rank adaptation for continual learning.** `preprint`
-
+4. **InfLoRA: Interference-free low-rank adaptation for continual learning.** `preprint`  
    *Liang Y, Li W.* 2024
    
-5. **GS-LoRA: Continual forgetting for pre-trained vision models.** `preprint`
-
+5. **GS-LoRA: Continual forgetting for pre-trained vision models.** `preprint`  
    *Zhao H, Ni B, Wang H, Fan J, Zhu F, Wang Y, Chen Y, Meng G, Zhang Z.* 2024
 
-6. **I-LoRA: Analyzing and reducing catastrophic forgetting in parameter-efficient tuning.** `preprint`
-
+6. **I-LoRA: Analyzing and reducing catastrophic forgetting in parameter-efficient tuning.** `preprint`  
    *Ren W, Li X, Wang L, Zhao T, Qin W.* 2024
 
-7. **LongLoRA: Efficient fine-tuning of long-context large language models.** `preprint`
-
+7. **LongLoRA: Efficient fine-tuning of long-context large language models.** `preprint`  
    *Y. Chen, S. Qian, H. Tang, X. Lai, Z. Liu, S. Han, J. Jia.* 2023
 
-8. **SinkLoRA: Enhanced efficiency and chat capabilities for long-context large language models.** `preprint`
-
+8. **SinkLoRA: Enhanced efficiency and chat capabilities for long-context large language models.** `preprint`  
    *Zhang H.* 2023
 
 ## Downstream Adaptation Improving
@@ -153,16 +147,13 @@ Low-Rank Adaptation(LoRA), which updates the dense neural network layers with pl
    *Yu Wang, Nedim Lipka, Ryan Rossi, Alex Siu, Ruiyi Zhang, Tyler Derr.* [[PDF](https://arxiv.org/abs/2308.11730)] [[Code](https://github.com/YuWVandy/KG-LLM-MDQA)], 2023.8, ![](https://img.shields.io/badge/DecoderOnly-blue) ![](https://img.shields.io/badge/LLM-red)
  -->
 
-1. **ReLoRA: High-Rank Training Through Low-Rank Updates.** `NeurIPS Workshop 2023`
-   
+1. **ReLoRA: High-Rank Training Through Low-Rank Updates.** `NeurIPS Workshop 2023`  
    *Lialin V., Muckatira S., Shivagunde N., Rumshisky A. 2023*
 
-2. **Chain of LoRA: Efficient fine-tuning of language models via residual learning.** `preprint`
-   
+2. **Chain of LoRA: Efficient fine-tuning of language models via residual learning.** `preprint`  
    *Xia W, Qin C, Hazan E.* 2024
 
-3. **Mini-ensemble low-rank adapters for parameter-efficient fine-tuning.** `preprint`
-   
+3. **Mini-ensemble low-rank adapters for parameter-efficient fine-tuning.** `preprint`  
    *Ren P, Shi C, Wu S, Zhang M, Ren Z, Rijke d M, Chen Z, Pei J.* 2024
 
 #### Updating as gradient compressor
@@ -375,7 +366,14 @@ Low-Rank Adaptation(LoRA), which updates the dense neural network layers with pl
 
     *Zhu Y, Wichers N, Lin C, Wang X, Chen T, Shu L, Lu H, Liu C, Luo L, Chen J, Meng L.* 2023
 
-    ...
+12. **Octavius: Mitigating task interference in MLLMs via MoE.** `preprint`  
+    *Chen Z, Wang Z, Wang Z, Liu H, Yin Z, Liu S, Sheng L, Ouyang W, Qiao Y, Shao J.* 2023
+
+13. **Fast LoRA: Batched low-rank adaptation of foundation models.** `preprint`  
+    *Wen Y, Chaudhuri S.* 2023
+
+14. **I-LoRA: Analyzing and reducing catastrophic forgetting in parameter-efficient tuning.** `preprint`
+    *Ren W, Li X, Wang L, Zhao T, Qin W.* 2024
 
 ## Efficiency Improving
 
@@ -468,19 +466,38 @@ Low-Rank Adaptation(LoRA), which updates the dense neural network layers with pl
 
 ### <img src="./fig/star.svg" width="15" height="15" /> Data Heterogeneity
 
+1. **SLoRA: Federated parameter efficient fine-tuning of language models.** `arXiv preprint`  
+   *Babakniya S, Elkordy A R, Ezzeldin Y H, Liu Q, Song K, El-Khamy M, Avestimehr S.* 2023
 
+2. **FeDeRA: Efficient fine-tuning of language models in federated learning leveraging weight decomposition.** `arXiv preprint`  
+   *Yan Y, Tang S, Shi Z, Yang Q.* 2024
+
+3. **Improving LoRA in privacy-preserving federated learning.** `arXiv preprint`  
+   *Sun Y, Li Z, Li Y, Ding B.* 2024
 
 ### <img src="./fig/star.svg" width="15" height="15" /> Device Heterogeneity
 
+1. **FedMS: Federated learning with mixture of sparsely activated foundation models.** `arXiv preprint`  
+   *Wu P, Li K, Wang T, Wang F.* 2023
 
+2. **Federated fine-tuning of large language models under heterogeneous language tasks and client resources.** `arXiv preprint`  
+   *Bai J, Chen D, Qian B, Yao L, Li Y.* 2024
+
+3. **Heterogeneous LoRA for federated fine-tuning of on-device foundation models.** `NeurIPS`  
+   *Cho Y J, Liu L, Xu Z, Fahrezi A, Barnes M, Joshi G.* 2023
 
 ### <img src="./fig/star.svg" width="15" height="15" /> Model Heterogeneity
 
-
+1. **pFedLoRA: Model-Heterogeneous Personalized Federated Learning with LoRA Tuning.** `arXiv preprint`  
+  *Yi L, Yu H, Wang G, Liu X, Li X.* 2023
 
 ### <img src="./fig/star.svg" width="15" height="15" /> Parameter Privacy
 
+1. **A fast, performant, secure distributed training framework for large language model.** `arXiv preprint`  
+   *Huang W, Wang Y, Cheng A, Zhou A, Yu C, Wang L.* 2024
 
+2. **PrivateLoRA for efficient privacy-preserving LLM.** `arXiv preprint`  
+   *Wang Y, Lin Y, Zeng X, Zhang G.* 2023
 
 ## Applications of LoRA
 
@@ -827,6 +844,25 @@ Low-Rank Adaptation(LoRA), which updates the dense neural network layers with pl
 3. **TPLLM: A traffic prediction framework based on pretrained large language models.** `preprint`
 
     *Y. Ren, Y. Chen, S. Liu, B. Wang, H. Yu, Z. Cui* 2024
+
+## How do we create this repository?
+
+We input the references material (references.pdf) and the framework picture (framework.pdf) together into GPT-4o, using the following prompts:
+
+``` 
+Extract the papers from "references.pdf" based on the structure outlined in "framework.pdf", maintaining their original categories. Please provide the extracted content in markdown format, following the examples provided below:
+
+1. **Can Language Models Solve Graph Problems in Natural Language?** `preprint`  
+  *Heng Wang, Shangbin Feng, Tianxing He, Zhaoxuan Tan, Xiaochuang Han, Yulia Tsvetkov*. 2023.8
+
+2. **Knowledge Graph Prompting for Multi-Document Question Answering.** `AAAI`  
+  *Yu Wang, Nedim Lipka, Ryan Rossi, Alex Siu, Ruiyi Zhang, Tyler Derr.* 2023,9
+
+3. **Knowledge Prompting for Multi-Graph Question Answering.** `AAAI`  
+  *Yu Wang, Nedim Lipka, Ryan Rossi, Alex Siu, Ruiyi Zhang, Tyler Derr.* 2022.8
+```
+
+### We will continue to update the repository regularly...
 
 ## Contribution
 
