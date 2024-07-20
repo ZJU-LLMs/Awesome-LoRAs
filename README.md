@@ -560,39 +560,51 @@ Low-Rank Adaptation(LoRA), which updates the dense neural network layers with pl
 #### Vertical Domain Task
 
 1. **Bioinstruct: Instruction tuning of large language models for biomedical natural language processing.** `preprint`
+
     *Tran H, Yang Z, Yao Z, Yu H.* 2023
 
 2. **Parameterefficient fine-tuning of llama for the clinical domain.** `preprint`
+
     *Gema A P, Daines L, Minervini P, Alex B.* 2023
 
 3. **Clinical camel: An open-source expert-level medical language model with dialogue-based knowledge encoding.** `preprint`
+
     *Toma A, Lawler P R, Ba J, Krishnan R G, Rubin B B, Wang B.* 2023
 
 4. **Suryakiran at mediqa-sum 2023: Leveraging lora for clinical dialogue summarization.** `CLEF`
+
     *Suri K, Mishra P, Saha S, Singh A.* 2023
 
 5. **Assertion detection large language model in-context learning lora fine-tuning.** `preprint`
+
     *Ji Y, Yu Z, Wang Y.* 2024
 
 6. **Ivygpt: Interactive chinese pathway language model in medical domain.** `CAAI`
+
     *Wang R, Duan Y, Lam C, Chen J, Xu J, Chen H, Liu X, Pang P C, Tan T.* 2023
 
 7. **SM70: A large language model for medical devices.** `preprint`
+
     *Bhatti A, Parmar S, Lee S.* 2023
 
 8. **Finllama: Financial sentiment classification for algorithmic trading applications.** `preprint`
+
     *Konstantinidis T, Iacovides G, Xu M, Constantinides T G, Mandic D P.* 2024
 
 9. **Financial news analytics using fine-tuned llama 2 GPT model.** `preprint`
+
     *Pavlyshenko B M.* 2023
 
 10. **Fingpt: Democratizing internet-scale data for financial large language models.** `preprint`
+
     *Liu X, Wang G, Zha D.* 2023
 
 11. **Ra-cfgpt: Chinese financial assistant with retrievalaugmented large language model.** `Frontiers of Computer Science`
+
     *Li J, Lei Y, Bian Y, Cheng D, Ding Z, Jiang C.* 2024
 
 12. **Db-gpt: Large language model meets database.** `Data Science and Engineering`
+
     *Zhou X, Sun Z, Li G.* 2024
 
 ### <img src="./fig/star.svg" width="15" height="15" /> Vision Tasks
@@ -764,12 +776,15 @@ Low-Rank Adaptation(LoRA), which updates the dense neural network layers with pl
 #### Image-Text
 
 1. **InternLM-XComposer2: Mastering Free-Form Text-Image Composition and Comprehension in Vision-Language Large Model.** `preprint`
+
     *Chen Z, Huang H, Andrusenko A, Hrinchuk O, Puvvada KC, Li J, Ghosh S, Balam J, Ginsburg B.* 2024
 
 2. **mPlug-OWL: Modularization Empowers Large Language Models with Multimodality.** `preprint`
+
     *Ye Q, Xu H, Xu G, Ye J, Yan M, Zhou Y, Wang J, Hu A, Shi P, Shi Y, Li C, Xu Y, Chen H, Tian J, Qi Q, Zhang J, Huang F.* 2023
 
 3. **Collavo: Crayon Large Language and Vision Model.** `preprint`
+
     *Lee B, Park B, Kim CW, Ro YM.* 2024
 
 #### Video-Text
