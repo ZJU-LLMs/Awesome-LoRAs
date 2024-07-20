@@ -15,65 +15,119 @@ Low-Rank Adaptation(LoRA), which updates the dense neural network layers with pl
 ## Contents
 
 - [A Survey on LoRA of Large Language Models ](#a-survey-on-lora-of-large-language-models-)
-
   - [LoRA of LLMs](#lora-of-llms)
-
+  - [Contents](#contents)
   - [Low-Rank Adaptation](#low-rank-adaptation)
-    - [Theoretical Analysis](#theoretical-analysis)
-    - [Beyond Fine-tuning](#beyond-fine-tuning)
-
+    - [ Theoretical Analysis](#-theoretical-analysis)
+    - [ Beyond Fine-tuning](#-beyond-fine-tuning)
   - [Downstream Adaptation Improving](#downstream-adaptation-improving)
-    - [Breaking the Low-rank Bottleneck](#breaking-the-low-rank-bottleneck)
+    - [ Breaking the Low-rank Bottleneck](#-breaking-the-low-rank-bottleneck)
       - [Stacking LoRAs along Fine-tuning](#stacking-loras-along-fine-tuning)
       - [Updating as gradient compressor](#updating-as-gradient-compressor)
       - [Co-learning LLM and LoRA](#co-learning-llm-and-lora)
-    - [Dynamic Rank Allocation](#dynamic-rank-allocation)
+    - [ Dynamic Rank Allocation](#-dynamic-rank-allocation)
       - [SVD-Based Methods](#svd-based-methods)
-      - [SRD-based Methods](#srd-based-methods)
-      - [Rank Sampling-based Methods](#rank-sampling-based-methods)
-    - [Optimizing the Learning Procedure](#optimizing-the-learning-procedure)
+      - [SRD-Based Methods](#srd-based-methods)
+      - [Rank Sampling-Based Methods](#rank-sampling-based-methods)
+    - [ Optimizing the Learning Procedure](#-optimizing-the-learning-procedure)
       - [Initialization Improvement](#initialization-improvement)
       - [Gradient Update Optimization](#gradient-update-optimization)
       - [Overfitting Mitigation](#overfitting-mitigation)
-    - [Combining with other Learning Paradigms](#combining-with-other-learning-paradigms)
-
+    - [ Combining with other Learning Paradigms](#-combining-with-other-learning-paradigms)
   - [Cross-task Generalization](#cross-task-generalization)
-    - [Mixture with Manually Designed Weights](#mixture-with-manually-designed-weights)
-    - [Mixture with Learnt Weights](#mixture-with-learnt-weights)
-    - [Mixture of LoRA Experts](#mixture-of-lora-experts)
-
+    - [ Mixture with Manually Designed Weights](#-mixture-with-manually-designed-weights)
+    - [ Mixture with Learnt Weights](#-mixture-with-learnt-weights)
+    - [ Mixture of LoRA Experts](#-mixture-of-lora-experts)
   - [Efficiency Improving](#efficiency-improving)
-    - [Parameter Reduction](#parameter-reduction)
+    - [ Parameter Reduction](#-parameter-reduction)
       - [Parameter Freezing](#parameter-freezing)
       - [Parameter Pruning](#parameter-pruning)
       - [Parameter Sharing](#parameter-sharing)
-    - [Parameter Quantization](#parameter-quantization)
-      - [PTQ-based methods](#ptq-based-methods)
-      - [QAT-based methods](#qat-base-methods)
-    - [Parallel LoRA Computing Frameworks](#parallel-lora-computing-frameworks)
+    - [ Parameter Quantization](#-parameter-quantization)
+      - [PTQ-Based Methods](#ptq-based-methods)
+      - [QAT-Based Methods](#qat-based-methods)
+    - [ Parallel LoRA Computing Frameworks](#-parallel-lora-computing-frameworks)
       - [Parallel Fine-tuning](#parallel-fine-tuning)
       - [Parallel Inference](#parallel-inference)
-
-  - [LoRA for Federate Learning](#lora-for-federate-learning)
-    - [Data Heterogeneity](#data-heterogeneity)
-    - [Device Heterogeneity](#device-heterogeneity)
-    - [Model Heterogeneity](#model-heterogeneity)
-    - [Parameter Privacy](#parameter-privacy)
-
+  - [LoRA for Federated Learning](#lora-for-federated-learning)
+    - [ Data Heterogeneity](#-data-heterogeneity)
+    - [ Device Heterogeneity](#-device-heterogeneity)
+    - [ Model Heterogeneity](#-model-heterogeneity)
+    - [ Parameter Privacy](#-parameter-privacy)
   - [Applications of LoRA](#applications-of-lora)
-    - [Language Tasks](#language-tasks)
-    - [Vision Task](#vision-task)
-    - [Multimodal Tasks](#multimodal-tasks)
+    - [ Language Tasks](#-language-tasks)
+    - [ Vision Tasks](#-vision-tasks)
+    - [ Multimodal Tasks](#-multimodal-tasks)
+  - [Contribution](#contribution)
+  - [Citations](#citations)
 
 ## Low-Rank Adaptation
 
 ### <img src="./fig/star.svg" width="15" height="15" /> Theoretical Analysis
+1. **A Kernel-Based View of Language Model Fine-Tuning.** `ICML 2023`
+   
+    *Malladi S., Wettig A., Yu D., Chen D., Arora S.* 2023
 
+2. **The Impact of LoRA on the Emergence of Clusters in Transformers.** `preprint`
+    *Koubbi H., Boussard M., Hernandez L.* 2024
+
+3. **LoRA Training in the NTK Regime Has No Spurious Local Minima.** `preprint`
+   
+    *Jang U., Lee J. D., Ryu E. K.* 2024
+
+4. **A Kernel-Based View of Language Model Fine-Tuning.** `ICML 2023`
+     *Malladi S., Wettig A., Yu D., Chen D., Arora S.* 2023
+
+5. **The Impact of LoRA on the Emergence of Clusters in Transformers.** `preprint`
+   
+     *Koubbi H., Boussard M., Hernandez L.* 2024
+
+6. **LoRA Training in the NTK Regime Has No Spurious Local Minima.** `preprint`
+   
+     *Jang U., Lee J. D., Ryu E. K.* 2024
+
+7. **Asymmetry in Low-Rank Adapters of Foundation Models.** `preprint`
+     
+     *Zhu J., Greenewald K. H., Nadjahi K., Ocáriz Borde d H. S., Gabrielsson R. B., Choshen L., Ghassemi M., Yurochkin M., Solomon J.* 2024
+
+8. **The Expressive Power of Low-Rank Adaptation.** `preprint`
+     
+     *Zeng Y., Lee K.* 2023
 
 
 ### <img src="./fig/star.svg" width="15" height="15" /> Beyond Fine-tuning
 
+1. **ReLoRA: High-rank training through low-rank updates.** `NeurIPS Workshop`. 
+    
+  *Lialin V, Muckatira S, Shivagunde N, Rumshisky A.* 2023
 
+2. **MoRA: High-rank updating for parameter-efficient fine-tuning.** `preprint`
+
+  *Jiang T, Huang S, Luo S, Zhang Z, Huang H, Wei F, Deng W, Sun F, Zhang Q, Wang D, others.* 2024
+
+3. **Training neural networks from scratch with parallel low-rank adapters.** `preprint`
+
+  *Huh M, Cheung B, Bernstein J, Isola P, Agrawal P.* 2024
+
+4. **InfLoRA: Interference-free low-rank adaptation for continual learning.** `preprint`
+
+   *Liang Y, Li W.* 2024
+   
+5. **GS-LoRA: Continual forgetting for pre-trained vision models.** `preprint`
+
+   *Zhao H, Ni B, Wang H, Fan J, Zhu F, Wang Y, Chen Y, Meng G, Zhang Z.* 2024
+
+6. **I-LoRA: Analyzing and reducing catastrophic forgetting in parameter-efficient tuning.** `preprint`
+
+   *Ren W, Li X, Wang L, Zhao T, Qin W.* 2024
+
+7. **LongLoRA: Efficient fine-tuning of long-context large language models.** `preprint`
+
+   *Y. Chen, S. Qian, H. Tang, X. Lai, Z. Liu, S. Han, J. Jia.* 2023
+
+8. **SinkLoRA: Enhanced efficiency and chat capabilities for long-context large language models.** `preprint`
+
+   *Zhang H.* 2023
 
 ## Downstream Adaptation Improving
 
@@ -81,67 +135,237 @@ Low-Rank Adaptation(LoRA), which updates the dense neural network layers with pl
 
 #### Stacking LoRAs along Fine-tuning
 
-1. **样例Can Language Models Solve Graph Problems in Natural Language?** `preprint`
+<!-- 1. **样例Can Language Models Solve Graph Problems in Natural Language?** `preprint`
 
    *Heng Wang, Shangbin Feng, Tianxing He, Zhaoxuan Tan, Xiaochuang Han, Yulia Tsvetkov.* [[PDF](https://browse.arxiv.org/pdf/2305.10037.pdf)] [[Code](https://github.com/Arthur-Heng/NLGraph)], 2023.5, ![](https://img.shields.io/badge/DecoderOnly-blue) ![](https://img.shields.io/badge/LLM-red)
 
 2. **样例Knowledge Graph Prompting for Multi-Document Question Answering.** `AAAI 2024`
 
    *Yu Wang, Nedim Lipka, Ryan Rossi, Alex Siu, Ruiyi Zhang, Tyler Derr.* [[PDF](https://arxiv.org/abs/2308.11730)] [[Code](https://github.com/YuWVandy/KG-LLM-MDQA)], 2023.8, ![](https://img.shields.io/badge/DecoderOnly-blue) ![](https://img.shields.io/badge/LLM-red)
+ -->
 
+1. **ReLoRA: High-Rank Training Through Low-Rank Updates.** `NeurIPS Workshop 2023`
+   
+   *Lialin V., Muckatira S., Shivagunde N., Rumshisky A. 2023*
 
+2. **Chain of LoRA: Efficient fine-tuning of language models via residual learning.** `preprint`
+   
+   *Xia W, Qin C, Hazan E.* 2024
+
+3. **Mini-ensemble low-rank adapters for parameter-efficient fine-tuning.** `preprint`
+   
+   *Ren P, Shi C, Wu S, Zhang M, Ren Z, Rijke d M, Chen Z, Pei J.* 2024
 
 #### Updating as gradient compressor
 
-
+1. **FLoRA: Low-rank adapters are secretly gradient compressors.** `preprint`
+   
+   *Hao Y, Cao Y, Mou L.* 2024
 
 #### Co-learning LLM and LoRA
+
+1. **Delta-LoRA: Fine-tuning high-rank parameters with the delta of low-rank matrices.** `preprint`
+   
+    *Zi B, Qi X, Wang L, Wang J, Wong K, Zhang L.* 2023
 
 ### <img src="./fig/star.svg" width="15" height="15" /> Dynamic Rank Allocation
 
 #### SVD-Based Methods
 
+1. **AdaLoRA: Adaptive Budget Allocation for Parameter-Efficient Fine-Tuning.** `ICLR 2023`
+   
+   *Zhang Q., Chen M., Bukharin A., He P., Cheng Y., Chen W., Zhao T. 2023*
 
+2. **SaLoRA: Structure-aware low-rank adaptation for parameter-efficient fine-tuning.** `Mathematics`
+
+    *Hu Y, Xie Y, Wang T, Chen M, Pan Z.* 2023
+
+3. **IncreLoRA: Incremental Parameter Allocation Method for Parameter-Efficient Fine-Tuning.** `preprint`
+   
+   *Zhang F., Li L., Chen J., Jiang Z., Wang B., Qian Y. 2023*
 
 #### SRD-Based Methods
 
+1. **DoRA: Enhancing parameter-efficient fine-tuning with dynamic rank distribution.** `preprint`
+ 
+    *Mao Y, Huang K, Guan C, Bao G, Mo F, Xu J.* 2024
 
+2. **AutoLoRA: Automatically tuning matrix ranks in low-rank adaptation based on meta learning.** `preprint`
+
+    *Zhang R, Qiang R, Somayajula S A, Xie P.* 2024
+
+3. **SoRA: Sparse low-rank adaptation of pre-trained language models.** `EMNLP`
+
+    *Ding N, Lv X, Wang Q, Chen Y, Zhou B, Liu Z, Sun M.* 2023
+
+4. **ALoRA: Allocating low-rank adaptation for fine-tuning large language models.** `preprint`
+
+    *Liu Z, Lyn J, Zhu W, Tian X, Graham Y.* 2024
 
 #### Rank Sampling-Based Methods
 
-
+1. **DyLoRA: Parameter-Efficient Tuning of Pre-trained Models Using Dynamic Search-Free Low-Rank Adaptation.** `EACL 2023`
+    
+   *Valipour M., Rezagholizadeh M., Kobyzev I., Ghodsi A. 2023*
 
 ### <img src="./fig/star.svg" width="15" height="15" /> Optimizing the Learning Procedure
 
 #### Initialization Improvement
 
+1. **The impact of initialization on LoRA finetuning dynamics.** `preprint`
+   
+   *Hayou S, Ghosh N, Yu B.* 2024
 
+2. **PISSA: Principal singular values and singular vectors adaptation of large language models.** `preprint`
+
+   *Meng F, Wang Z, Zhang M.* 2024
+
+4. **MiLoRA: Harnessing minor singular components for parameter-efficient LLM finetuning.** `preprint`
+
+   *Wang H, Xiao Z, Li Y, Wang S, Chen G, Chen Y.* 2024
 
 #### Gradient Update Optimization
 
+1. **Riemannian preconditioned LoRA for fine-tuning foundation models.** `preprint`
 
+   *Zhang F, Pilanci M.* 2024
+
+2. **LoRA+: Efficient low rank adaptation of large models.** `preprint`
+
+   *Hayou S, Ghosh N, Yu B.* 2024
+
+3. **ResLoRA: Identity residual mapping in low-rank adaption.** `preprint`
+    
+   *Shi S, Huang S, Song M, Li Z, Zhang Z, Huang H, Wei F, Deng W, Sun F, Zhang Q.* 2024
+
+4. **SIBO: A simple booster for parameter-efficient fine-tuning.** `preprint`
+
+   *Wen Z, Zhang J, Fang Y.* 2024
 
 #### Overfitting Mitigation
 
+1. **BiLoRA: A bi-level optimization framework for overfitting-resilient low-rank adaptation of large pre-trained models.** `preprint`
 
+   *Qiang R, Zhang R, Xie P.* 2024
+
+2. **LoRA dropout as a sparsity regularizer for overfitting control.** `preprint`
+
+   *Lin Y, Ma X, Chu X, Jin Y, Yang Z, Wang Y, Mei H.* 2024
+
+3. **LoRA meets dropout under a unified framework.** `preprint`
+
+   *Wang S, Chen L, Jiang J, Xue B, Kong L, Wu C.* 2024
 
 ### <img src="./fig/star.svg" width="15" height="15" /> Combining with other Learning Paradigms
 
+1. **Laplace-LoRA: Bayesian low-rank adaptation for large language models.** `preprint`
 
+   *Yang A X, Robeyns M, Wang X, Aitchison L.* 2023
+
+2. **PILLOW: Enhancing efficient instruction fine-tuning via prompt matching.** `EMNLP`
+
+   *Qi Z, Tan X, Shi S, Qu C, Xu Y, Qi Y.* 2023
+
+3. **STAR: Constraint LoRA with dynamic active learning for data-efficient fine-tuning of large language models.** `preprint`
+
+   *Zhang L, Wu J, Zhou D, Xu G.* 2024
 
 ## Cross-task Generalization
 
 ### <img src="./fig/star.svg" width="15" height="15" /> Mixture with Manually Designed Weights
 
+1. **LoRA Ensembles for large language model fine-tuning.** `preprint`
 
+   *Wang X, Aitchison L, Rudolph M.* 2023
+
+2. **LoRAretriever: Input-aware LoRA retrieval and composition for mixed tasks in the wild.** `preprint`
+
+   *Zhao Z, Gan L, Wang G, Zhou W, Yang H, Kuang K, Wu F.* 2024
+
+3. **Token-level adaptation of LoRA adapters for downstream task generalization.** `AICCC`
+
+   *Belofsky J.* 2023
+
+4. **Effective and parameter-efficient reusing fine-tuned models.** `preprint`
+
+   *Jiang W, Lin B, Shi H, Zhang Y, Li Z, Kwok J T.* 2023
+
+5. **Composing parameter-efficient modules with arithmetic operations.**  `preprint`
+   
+    *Zhang J, Chen S, Liu J, He J.* 2023
+
+6. **Task arithmetic with LoRA for continual learning.** `preprint`
+
+    *Chitale R, Vaidya A, Kane A, Ghotkar A.* 2023    
 
 ### <img src="./fig/star.svg" width="15" height="15" /> Mixture with Learnt Weights
 
+1. **LoRAHub: Efficient cross-task generalization via dynamic LoRA composition.** `preprint`
 
+   *Huang C, Liu Q, Lin B Y, Pang T, Du C, Lin M.* 2023
+
+2. **ComPEFT: Compression for communicating parameter efficient updates via sparsification and quantization.** `preprint`
+
+   *Yadav P, Choshen L, Raffel C, Bansal M.* 2023
+
+3. **L-LoRA: Parameter efficient multi-task model fusion with partial linearization.** `preprint`
+
+   *Tang A, Shen L, Luo Y, Zhan Y, Hu H, Du B, Chen Y, Tao D.* 2023
+
+4. **MixLoRA: Multimodal instruction tuning with conditional mixture of LoRA.** `preprint`
+
+   *Shen Y, Xu Z, Wang Q, Cheng Y, Yin W, Huang L.* 2024
+
+5. **X-LoRA: Mixture of low-rank adapter experts, a flexible framework for large language models with applications in protein mechanics and design.** `preprint`
+
+   *Buehler E L, Buehler M J.* 2024
 
 ### <img src="./fig/star.svg" width="15" height="15" /> Mixture of LoRA Experts
 
+1. **MoRAL: MoE augmented LoRA for LLMs’ lifelong learning.** `preprint`
 
+   *Yang S, Ali M A, Wang C, Hu L, Wang D.* 2024
+
+2. **LoRAMoE: Alleviate world knowledge forgetting in large language models via MoE-style plugin.** `preprint`
+
+   *Dou S, Zhou E, Liu Y, Gao S, Zhao J, Shen W, Zhou Y, Xi Z, Wang X, Fan X, Pu S, Zhu J, Zheng R, Gui T, Zhang Q, Huang X.* 2023
+
+3. **MoCLE: Mixture of cluster-conditional LoRA experts for vision-language instruction tuning.** `preprint`
+
+   *Gou Y, Liu Z, Chen K, Hong L, Xu H, Li A, Yeung D, Kwok J T, Zhang Y.* 2023
+
+4. **MOELoRA: An MoE-based parameter efficient fine-tuning method for multi-task medical applications.** `preprint`
+
+   *Liu Q, Wu X, Zhao X, Zhu Y, Xu D, Tian F, Zheng Y.* 2023
+
+5. **Mixture-of-LoRAs: An efficient multitask tuning method for large language models.** `LREC/COLING`
+
+   *Feng W, Hao C, Zhang Y, Han Y, Wang H.* 2024
+
+6. **MultiLoRA: Democratizing LoRA for better multi-task learning.** `preprint`
+
+   *Wang Y, Lin Y, Zeng X, Zhang G.* 2023
+
+7. **MLoRE: Multi-task dense prediction via mixture of low-rank experts.** `preprint`
+
+   *Yang Y, Jiang P, Hou Q, Zhang H, Chen J, Li B.* 2024
+
+8. **MTLoRA: Low-rank adaptation approach for efficient multi-task learning.** `CVPR`
+
+   *Agiza A R SN. M.* 2024
+
+9. **MoLA: Higher layers need more LoRA experts.** `preprint`
+
+   *Gao C, Chen K, Rao J, Sun B, Liu R, Peng D, Zhang Y, Guo X, Yang J, Subrahmanian V S.* 2024
+
+10. **LLaVA-MoLE: Sparse mixture of LoRA experts for mitigating data conflicts in instruction finetuning MLLMs.** `preprint`
+    *Chen S, Jie Z, Ma L.* 2024
+
+11. **SiRA: Sparse mixture of low rank adaptation.** `preprint`
+
+    *Zhu Y, Wichers N, Lin C, Wang X, Chen T, Shu L, Lu H, Liu C, Luo L, Chen J, Meng L.* 2023
+
+  ...
 
 ## Efficiency Improving
 
