@@ -560,53 +560,40 @@ Low-Rank Adaptation(LoRA), which updates the dense neural network layers with pl
 #### Vertical Domain Task
 
 1. **Bioinstruct: Instruction tuning of large language models for biomedical natural language processing.** `preprint`
-
     *Tran H, Yang Z, Yao Z, Yu H.* 2023
 
-2. **Domain-specific adaptation of language models for biomedical text mining.** `Bioinformatics`
+2. **Parameterefficient fine-tuning of llama for the clinical domain.** `preprint`
+    *Gema A P, Daines L, Minervini P, Alex B.* 2023
 
-    *Smith J, Doe J, Johnson L.* 2022
+3. **Clinical camel: An open-source expert-level medical language model with dialogue-based knowledge encoding.** `preprint`
+    *Toma A, Lawler P R, Ba J, Krishnan R G, Rubin B B, Wang B.* 2023
 
-3. **Leveraging domain knowledge for natural language processing in healthcare.** `Journal of Biomedical Informatics`
+4. **Suryakiran at mediqa-sum 2023: Leveraging lora for clinical dialogue summarization.** `CLEF`
+    *Suri K, Mishra P, Saha S, Singh A.* 2023
 
-    *Brown E, Green S, Black P.* 2021
+5. **Assertion detection large language model in-context learning lora fine-tuning.** `preprint`
+    *Ji Y, Yu Z, Wang Y.* 2024
 
-4. **Biomedical text mining using large language models: challenges and opportunities.** `BMC Bioinformatics`
+6. **Ivygpt: Interactive chinese pathway language model in medical domain.** `CAAI`
+    *Wang R, Duan Y, Lam C, Chen J, Xu J, Chen H, Liu X, Pang P C, Tan T.* 2023
 
-    *Jones M, White A, Clarke B.* 2023
+7. **SM70: A large language model for medical devices.** `preprint`
+    *Bhatti A, Parmar S, Lee S.* 2023
 
-5. **Adapting language models for domain-specific biomedical applications.** `IEEE Transactions on Medical Informatics`
+8. **Finllama: Financial sentiment classification for algorithmic trading applications.** `preprint`
+    *Konstantinidis T, Iacovides G, Xu M, Constantinides T G, Mandic D P.* 2024
 
-    *Taylor R, Wilson K, Lee H.* 2022
+9. **Financial news analytics using fine-tuned llama 2 GPT model.** `preprint`
+    *Pavlyshenko B M.* 2023
 
-6. **Evaluating the impact of domain adaptation on biomedical named entity recognition.** `Proceedings of the Annual Meeting of the Association for Computational Linguistics`
+10. **Fingpt: Democratizing internet-scale data for financial large language models.** `preprint`
+    *Liu X, Wang G, Zha D.* 2023
 
-    *Parker G, Harris N, Martin J.* 2023
+11. **Ra-cfgpt: Chinese financial assistant with retrievalaugmented large language model.** `Frontiers of Computer Science`
+    *Li J, Lei Y, Bian Y, Cheng D, Ding Z, Jiang C.* 2024
 
-7. **Improving biomedical question answering with domain-specific language models.** `BioNLP Workshop`
-
-    *Evans L, Roberts M, Clark S.* 2023
-
-8. **Clinical text analysis with pretrained language models: a systematic review.** `Journal of the American Medical Informatics Association`
-
-    *Thomas B, Hall R, Foster J.* 2022
-
-9. **Utilizing pretrained models for medical entity recognition and normalization.** `AMIA Annual Symposium Proceedings`
-
-    *Anderson C, Morgan D, Mitchell K.* 2021
-
-10. **Advanced language models for healthcare: a review of applications and techniques.** `IEEE Access`
-
-    *Hughes P, Patel S, Wright L.* 2022
-
-11. **Enhancing medical language processing with specialized pretraining.** `Nature Communications`
-
-    *Bennett A, Campbell J, Phillips M.* 2023
-
-12. **Optimizing language models for domain-specific tasks in healthcare.** `Journal of Healthcare Informatics Research`
-
-    *Nelson D, Russell T, Kelly R.* 2022
-
+12. **Db-gpt: Large language model meets database.** `Data Science and Engineering`
+    *Zhou X, Sun Z, Li G.* 2024
 
 ### <img src="./fig/star.svg" width="15" height="15" /> Vision Tasks
 
