@@ -143,39 +143,73 @@ Low-Rank Adaptation(LoRA), which updates the dense neural network layers with pl
 
 
 
+
+
 ## Efficiency Improving
 
 ### <img src="./fig/star.svg" width="15" height="15" /> Parameter Reduction
 
 #### Parameter Freezing
-
-
+- **LoRA-SP: Streamlined Partial Parameter Adaptation for Resource Efficient Fine-Tuning of Large Language Models** `arXiv`  
+  *Y. Wu, Y. Xiang, S. Huo, Y. Gong, P. Liang*. 2024
+- **LoRA-FA: Memory-Efficient Low-Rank Adaptation for Large Language Models Fine-Tuning** `arXiv`  
+  *L. Zhang, L. Zhang, S. Shi, X. Chu, B. Li*. 2023
+- **AFLoRA: Adaptive Freezing of Low Rank Adaptation in Parameter Efficient Fine-Tuning of Large Models** `arXiv`  
+  *Z. Liu, S. Kundu, A. Li, J. Wan, L. Jiang, P. A. Beerel*. 2024
+- **DropBP: Accelerating Fine-Tuning of Large Language Models by Dropping Backward Propagation** `arXiv`  
+  *S. Woo, B. Park, B. Kim, M. Jo, S. Kwon, D. Jeon, D. Lee*. 2024
+- **LoRA-XS: Low-Rank Adaptation with Extremely Small Number of Parameters** `arXiv`  
+  *K. Bałazy, M. Banaei, K. Aberer, J. Tabor*. 2024
+- **BYOM-LoRA: Effective and Parameter-Efficient Reusing Fine-Tuned Models** `arXiv`  
+  *W. Jiang, B. Lin, H. Shi, Y. Zhang, Z. Li, J. T. Kwok*. 2023
 
 #### Parameter Pruning
-
-
+- **LoRA-Drop: Efficient LoRA Parameter Pruning Based on Output Evaluation** `arXiv`  
+  *H. Zhou, X. Lu, W. Xu, C. Zhu, T. Zhao*. 2024
+- **LoRAPrune: Pruning Meets Low-Rank Parameter-Efficient Fine-Tuning** `arXiv`  
+  *M. Zhang, H. Chen, C. Shen, Z. Yang, L. Ou, X. Zhuang, B. Zhu*. 2023
+- **LoRAShear: Efficient Large Language Model Structured Pruning and Knowledge Recovery** `arXiv`  
+  *T. Chen, T. Ding, B. Yadav, I. Zharkov, L. Liang*. 2023
+- **Parameter-Efficient Fine-Tuning with Layer Pruning on Free-Text Sequence-to-Sequence Modeling** `arXiv`  
+  *Y. Zhu, X. Yang, Y. Wu, W. Zhang*. 2023
 
 #### Parameter Sharing
-
-
+- **VeRA: Vector-Based Random Matrix Adaptation** `arXiv`  
+  *D. J. Kopiczko, T. Blankevoort, Y. M. Asano*. 2023
+- **VB-LoRA: Extreme Parameter Efficient Fine-Tuning with Vector Banks** `arXiv`  
+  *Y. Li, S. Han, S. Ji*. 2024
+- **Parameter-Efficient Fine-Tuning with Discrete Fourier Transform** `arXiv`  
+  *Z. Gao, Q. Wang, A. Chen, Z. Liu, B. Wu, L. Chen, J. Li*. 2024
 
 ### <img src="./fig/star.svg" width="15" height="15" /> Parameter Quantization
 
 #### PTQ-Based Methods
-
-
+- **QLoRA: Efficient Fine-Tuning of Quantized LLMs** `NeurIPS`  
+  *T. Dettmers, A. Pagnoni, A. Holtzman, L. Zettlemoyer*. 2024
+- **QA-LoRA: Quantization-Aware Low-Rank Adaptation of Large Language Models** `arXiv`  
+  *Y. Xu, L. Xie, X. Gu, X. Chen, H. Chang, H. Zhang, Z. Chen, X. Zhang, Q. Tian*. 2023
 
 #### QAT-Based Methods
-
-
+- **LoftQ: LoRA-Fine-Tuning-Aware Quantization for Large Language Models** `arXiv`  
+  *Y. Li, Y. Yu, C. Liang, P. He, N. Karampatziakis, W. Chen, T. Zhao*. 2023
+- **ApiQ: Finetuning of 2-Bit Quantized Large Language Model** `arXiv`  
+  *B. Liao, C. Monz*. 2024
+- **L4Q: Parameter Efficient Quantization-Aware Training on Large Language Models via LoRA-Wise LSQ** `arXiv`  
+  *H. Jeon, Y. Kim, J. Kim*. 2024
 
 ### <img src="./fig/star.svg" width="15" height="15" /> Parallel LoRA Computing Frameworks
 
 #### Parallel Fine-tuning
-
-
+- **ASPEN: High-Throughput LoRA Fine-Tuning of Large Language Models with a Single GPU** `arXiv`  
+  *Z. Ye, D. Li, J. Tian, T. Lan, J. Zuo, L. Duan, Y. Jiang, J. Sha, K. Zhang, M. Tang*. 2023
 
 #### Parallel Inference
+- **Punica: Multi-Tenant LoRA Serving** `MLSys`  
+  *L. Chen, Z. Ye, Y. Wu, D. Zhuo, L. Ceze, A. Krishnamurthy*. 2024
+- **S-LoRA: Serving Thousands of Concurrent LoRA Adapters** `arXiv`  
+  *Y. Sheng, S. Cao, D. Li, C. Hooper, N. Lee, S. Yang, C.-C. Chou, B. Zheng, K. Keutzer*. 2023
+- **CARASERVE: CPU-Assisted and Rank-Aware LoRA Serving for Generative LLM Inference** `arXiv`  
+  *S. Li, H. Lu, T. Wu, M. Yu, Q. Weng, X. Chen, Y. Shan, B. Yuan, W. Wang*. 2024
 
 
 
