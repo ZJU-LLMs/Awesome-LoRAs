@@ -67,8 +67,6 @@ Low-Rank Adaptation(LoRA), which updates the dense neural network layers with pl
       - [Audio-Text](#audio-text)
       - [Image-Text](#image-text)
       - [Video-Text](#video-text)
-  - [How do we create this repository?](#how-do-we-create-this-repository)
-    - [We will continue to update the repository regularly...](#we-will-continue-to-update-the-repository-regularly)
   - [Contribution](#contribution)
   - [Citations](#citations)
 
@@ -844,25 +842,6 @@ Low-Rank Adaptation(LoRA), which updates the dense neural network layers with pl
 3. **TPLLM: A traffic prediction framework based on pretrained large language models.** `preprint`
 
     *Y. Ren, Y. Chen, S. Liu, B. Wang, H. Yu, Z. Cui* 2024
-
-## How do we create this repository?
-
-We input the references material (references.pdf) and the framework picture (framework.pdf) together into GPT-4o, using the following prompts:
-
-``` 
-Extract the papers from "references.pdf" based on the structure outlined in "framework.pdf", maintaining their original categories. Please provide the extracted content in markdown format, following the examples provided below:
-
-1. **Can Language Models Solve Graph Problems in Natural Language?** `preprint`  
-  *Heng Wang, Shangbin Feng, Tianxing He, Zhaoxuan Tan, Xiaochuang Han, Yulia Tsvetkov*. 2023.8
-
-2. **Knowledge Graph Prompting for Multi-Document Question Answering.** `AAAI`  
-  *Yu Wang, Nedim Lipka, Ryan Rossi, Alex Siu, Ruiyi Zhang, Tyler Derr.* 2023,9
-
-3. **Knowledge Prompting for Multi-Graph Question Answering.** `AAAI`  
-  *Yu Wang, Nedim Lipka, Ryan Rossi, Alex Siu, Ruiyi Zhang, Tyler Derr.* 2022.8
-```
-
-### We will continue to update the repository regularly...
 
 ## Contribution
 
