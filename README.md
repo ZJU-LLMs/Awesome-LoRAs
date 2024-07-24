@@ -274,104 +274,104 @@ Low-Rank Adaptation(LoRA), which updates the dense neural network layers with pl
 
 1. **LoRA Ensembles for large language model fine-tuning.** `preprint`
 
-   *Wang X, Aitchison L, Rudolph M.* 2023
+   *Wang X, Aitchison L, Rudolph M.* [[PDF](https://arxiv.org/abs/2310.00035)], 2023
 
 2. **LoRAretriever: Input-aware LoRA retrieval and composition for mixed tasks in the wild.** `preprint`
 
-   *Zhao Z, Gan L, Wang G, Zhou W, Yang H, Kuang K, Wu F.* 2024
+   *Zhao Z, Gan L, Wang G, Zhou W, Yang H, Kuang K, Wu F.* [[PDF](https://arxiv.org/abs/2402.09997)], 2024
 
 3. **Token-level adaptation of LoRA adapters for downstream task generalization.** `AICCC`
 
-   *Belofsky J.* 2023
+   *Belofsky J.* [[PDF](https://arxiv.org/abs/2311.10847)] [[Code](https://github.com/jb-01/LoRA-TLE)], 2023
 
 4. **Effective and parameter-efficient reusing fine-tuned models.** `preprint`
 
-   *Jiang W, Lin B, Shi H, Zhang Y, Li Z, Kwok J T.* 2023
+   *Jiang W, Lin B, Shi H, Zhang Y, Li Z, Kwok J T.*[[PDF](https://arxiv.org/abs/2310.01886)] [[Code]()], 2023
 
 5. **Composing parameter-efficient modules with arithmetic operations.**  `preprint`
-   
-  *Zhang J, Chen S, Liu J, He J.* 2023
+  
+   *Zhang J, Chen S, Liu J, He J.*[[PDF](https://proceedings.neurips.cc/paper_files/paper/2023/hash/299a08ee712d4752c890938da99a77c6-Abstract-Conference.html)] [[Code](https://github.com/hkust-nlp/PEM_composition)], 2023
 
-1. **Task arithmetic with LoRA for continual learning.** `preprint`
- 
-   *Chitale R, Vaidya A, Kane A, Ghotkar A.* 2023    
+6. **Task arithmetic with LoRA for continual learning.** `preprint`
+
+   *Chitale R, Vaidya A, Kane A, Ghotkar A.* [[PDF](https://arxiv.org/abs/2311.02428)], 2023    
 
 ### <img src="./fig/star.svg" width="15" height="15" /> Mixture with Learnt Weights
 
 1. **LoRAHub: Efficient cross-task generalization via dynamic LoRA composition.** `preprint`
 
-   *Huang C, Liu Q, Lin B Y, Pang T, Du C, Lin M.* 2023
+   *Huang C, Liu Q, Lin B Y, Pang T, Du C, Lin M.* [[PDF](https://arxiv.org/abs/2307.13269)] [[Code](https://github.com/sail-sg/lorahub)], 2023
 
 2. **ComPEFT: Compression for communicating parameter efficient updates via sparsification and quantization.** `preprint`
 
-   *Yadav P, Choshen L, Raffel C, Bansal M.* 2023
+   *Yadav P, Choshen L, Raffel C, Bansal M.* [[PDF](https://arxiv.org/abs/2311.13171)] [[Code](https://github.com/prateeky2806/compeft)], 2023
 
 3. **L-LoRA: Parameter efficient multi-task model fusion with partial linearization.** `preprint`
 
-   *Tang A, Shen L, Luo Y, Zhan Y, Hu H, Du B, Chen Y, Tao D.* 2023
+   *Tang A, Shen L, Luo Y, Zhan Y, Hu H, Du B, Chen Y, Tao D.* [[PDF](https://arxiv.org/abs/2310.04742)] [[Code](https://github.com/tanganke/peta)], 2023
 
 4. **MixLoRA: Multimodal instruction tuning with conditional mixture of LoRA.** `preprint`
 
-   *Shen Y, Xu Z, Wang Q, Cheng Y, Yin W, Huang L.* 2024
+   *Shen Y, Xu Z, Wang Q, Cheng Y, Yin W, Huang L.* [[PDF](https://arxiv.org/abs/2402.15896)], 2024
 
 5. **X-LoRA: Mixture of low-rank adapter experts, a flexible framework for large language models with applications in protein mechanics and design.** `preprint`
 
-   *Buehler E L, Buehler M J.* 2024
+   *Buehler E L, Buehler M J.* [[PDF](https://pubs.aip.org/aip/aml/article/2/2/026119/3294581)], 2024
 
 ### <img src="./fig/star.svg" width="15" height="15" /> Mixture of LoRA Experts
 
 1. **MoRAL: MoE augmented LoRA for LLMs’ lifelong learning.** `preprint`
-   
-   *Yang S, Ali M A, Wang C, Hu L, Wang D.* 2024
+  
+   *Yang S, Ali M A, Wang C, Hu L, Wang D.* [[PDF](https://arxiv.org/abs/2402.11260)], 2024
 
 2. **LoRAMoE: Alleviate world knowledge forgetting in large language models via MoE-style plugin.** `preprint`
 
-   *Dou S, Zhou E, Liu Y, Gao S, Zhao J, Shen W, Zhou Y, Xi Z, Wang X, Fan X, Pu S, Zhu J, Zheng R, Gui T, Zhang Q, Huang X.* 2023
+   *Dou S, Zhou E, Liu Y, Gao S, Zhao J, Shen W, Zhou Y, Xi Z, Wang X, Fan X, Pu S, Zhu J, Zheng R, Gui T, Zhang Q, Huang X.* [[PDF](https://arxiv.org/abs/2312.09979)] [[Code](https://github.com/Ablustrund/LoRAMoE)], 2023
 
 3. **MoCLE: Mixture of cluster-conditional LoRA experts for vision-language instruction tuning.** `preprint`
 
-   *Gou Y, Liu Z, Chen K, Hong L, Xu H, Li A, Yeung D, Kwok J T, Zhang Y.* 2023
+   *Gou Y, Liu Z, Chen K, Hong L, Xu H, Li A, Yeung D, Kwok J T, Zhang Y.* [[PDF](https://arxiv.org/abs/2312.12379)], 2023
 
 4. **MOELoRA: An MoE-based parameter efficient fine-tuning method for multi-task medical applications.** `preprint`
 
-   *Liu Q, Wu X, Zhao X, Zhu Y, Xu D, Tian F, Zheng Y.* 2023
+   *Liu Q, Wu X, Zhao X, Zhu Y, Xu D, Tian F, Zheng Y.* [[PDF](https://arxiv.org/abs/2310.18339)] [[Code](https://github.com/Applied-Machine-Learning-Lab/MOELoRA-peft)], 2023
 
 5. **Mixture-of-LoRAs: An efficient multitask tuning method for large language models.** `LREC/COLING`
 
-   *Feng W, Hao C, Zhang Y, Han Y, Wang H.* 2024
+   *Feng W, Hao C, Zhang Y, Han Y, Wang H.* [[PDF](https://aclanthology.org/2024.lrec-main.994/)], 2024
 
 6. **MultiLoRA: Democratizing LoRA for better multi-task learning.** `preprint`
 
-   *Wang Y, Lin Y, Zeng X, Zhang G.* 2023
+   *Wang Y, Lin Y, Zeng X, Zhang G.* [[PDF](https://arxiv.org/abs/2311.11501)], 2023
 
 7. **MLoRE: Multi-task dense prediction via mixture of low-rank experts.** `preprint`
 
-   *Yang Y, Jiang P, Hou Q, Zhang H, Chen J, Li B.* 2024
+   *Yang Y, Jiang P, Hou Q, Zhang H, Chen J, Li B.* [[PDF](https://openaccess.thecvf.com/content/CVPR2024/html/Yang_Multi-Task_Dense_Prediction_via_Mixture_of_Low-Rank_Experts_CVPR_2024_paper.html)] [[Code](https://github.com/YuqiYang213/MLoRE)], 2024
 
 8. **MTLoRA: Low-rank adaptation approach for efficient multi-task learning.** `CVPR`
 
-   *Agiza A R SN. M.* 2024
+   *Agiza A R SN. M.* [[PDF](https://openaccess.thecvf.com/content/CVPR2024/html/Agiza_MTLoRA_Low-Rank_Adaptation_Approach_for_Efficient_Multi-Task_Learning_CVPR_2024_paper.html)] [[Code](https://github.com/scale-lab/MTLoRA)], 2024
 
 9.  **MoLA: Higher layers need more LoRA experts.** `preprint`
 
-    *Gao C, Chen K, Rao J, Sun B, Liu R, Peng D, Zhang Y, Guo X, Yang J, Subrahmanian V S.* 2024
+    *Gao C, Chen K, Rao J, Sun B, Liu R, Peng D, Zhang Y, Guo X, Yang J, Subrahmanian V S.* [[PDF](https://arxiv.org/abs/2402.08562)] [[Code](https://github.com/GCYZSL/MoLA)], 2024
 
 10. **LLaVA-MoLE: Sparse mixture of LoRA experts for mitigating data conflicts in instruction finetuning MLLMs.** `preprint`
-    
-    *Chen S, Jie Z, Ma L.* 2024
+  
+    *Chen S, Jie Z, Ma L.* [[PDF](https://arxiv.org/abs/2401.16160)], 2024
 
 11. **SiRA: Sparse mixture of low rank adaptation.** `preprint`
 
-    *Zhu Y, Wichers N, Lin C, Wang X, Chen T, Shu L, Lu H, Liu C, Luo L, Chen J, Meng L.* 2023
+    *Zhu Y, Wichers N, Lin C, Wang X, Chen T, Shu L, Lu H, Liu C, Luo L, Chen J, Meng L.* [[PDF](https://arxiv.org/abs/2311.09179)], 2023
 
 12. **Octavius: Mitigating task interference in MLLMs via MoE.** `preprint`  
-    *Chen Z, Wang Z, Wang Z, Liu H, Yin Z, Liu S, Sheng L, Ouyang W, Qiao Y, Shao J.* 2023
+    *Chen Z, Wang Z, Wang Z, Liu H, Yin Z, Liu S, Sheng L, Ouyang W, Qiao Y, Shao J.* [[PDF](https://arxiv.org/abs/2311.02684)] [[Code](https://github.com/OpenGVLab/LAMM)], 2023
 
 13. **Fast LoRA: Batched low-rank adaptation of foundation models.** `preprint`  
-    *Wen Y, Chaudhuri S.* 2023
+    *Wen Y, Chaudhuri S.* [[PDF](https://arxiv.org/abs/2312.05677)], 2023
 
 14. **I-LoRA: Analyzing and reducing catastrophic forgetting in parameter-efficient tuning.** `preprint`
-    *Ren W, Li X, Wang L, Zhao T, Qin W.* 2024
+    *Ren W, Li X, Wang L, Zhao T, Qin W.* [[PDF](https://arxiv.org/abs/2402.18865)] [[Code](https://github.com/which47/LLMCL)], 2024
 
 ## Efficiency Improving
 
