@@ -552,11 +552,11 @@ Low-Rank Adaptation(LoRA), which updates the dense neural network layers with pl
 
 3. **Parameter-efficient finetuning of transformers for source code.** `preprint`
 
-    *Ayupov S, Chirkova N.* [[PDF](https://arxiv.org/abs/2212.05901)], 2022.
+    *Ayupov S, Chirkova N.* [[PDF](https://arxiv.org/abs/2212.05901)][[Code](https://github.com/ShamerD/source-code-efficient-ft)], 2022.
 
 4. **Repairllama: Efficient representations and fine-tuned adapters for program repair.** `preprint`
 
-    *Silva A, Fang S, Monperrus M.* [[PDF](https://arxiv.org/abs/2312.15698)], 2023.
+    *Silva A, Fang S, Monperrus M.* [[PDF](https://arxiv.org/abs/2312.15698)][[Code](https://github.com/ASSERT-KTH/repairllama)], 2023.
 
 5. **Analyzing the effectiveness of large language models on text-to-sql synthesis.** `preprint`
 
@@ -578,11 +578,11 @@ Low-Rank Adaptation(LoRA), which updates the dense neural network layers with pl
 
 3. **Exploring the impact of low-rank adaptation on the performance, efficiency, and regularization of RLHF.** `preprint`
 
-    *S. Sun, D. Gupta, M. Iyyer.* [[PDF](http://arxiv.org/abs/2309.09055v1)], 2023
+    *S. Sun, D. Gupta, M. Iyyer.* [[PDF](http://arxiv.org/abs/2309.09055v1)][[Code](https://github.com/SimengSun/alpaca_farm_lora)], 2023
 
 4. **Dmoerm: Recipes of mixture-of-experts for effective reward modeling.** `preprint`
 
-    *S. Quan.* [[PDF](http://arxiv.org/abs/2403.01197v1)], 2024
+    *S. Quan.* [[PDF](http://arxiv.org/abs/2403.01197v1)][[Code](https://github.com/quanshr/DMoERM)], 2024
 
 5. **Improving reinforcement learning from human feedback with efficient reward model ensemble.** `preprint`
 
@@ -598,17 +598,17 @@ Low-Rank Adaptation(LoRA), which updates the dense neural network layers with pl
 
 8. **Bayesian low-rank adaptation for large language models.** `preprint`
 
-    *A. X. Yang, M. Robeyns, X. Wang, L. Aitchison.* [[PDF](http://arxiv.org/abs/2308.13111v5)], 2023
+    *A. X. Yang, M. Robeyns, X. Wang, L. Aitchison.* [[PDF](http://arxiv.org/abs/2308.13111v5)][[Code](https://github.com/MaximeRobeyns/bayesian_lora)], 2023
 
 #### Vertical Domain Task
 
 1. **Bioinstruct: Instruction tuning of large language models for biomedical natural language processing.** `preprint`
 
-    *Tran H, Yang Z, Yao Z, Yu H.* [[PDF](http://arxiv.org/abs/2310.19975v2)], 2023
+    *Tran H, Yang Z, Yao Z, Yu H.* [[PDF](http://arxiv.org/abs/2310.19975v2)][[Code](https://github.com/bio-nlp/BioInstruct)], 2023
 
 2. **Parameterefficient fine-tuning of llama for the clinical domain.** `preprint`
 
-    *Gema A P, Daines L, Minervini P, Alex B.* [[PDF](https://arxiv.org/abs/2307.03042)], 2023
+    *Gema A P, Daines L, Minervini P, Alex B.* [[PDF](https://arxiv.org/abs/2307.03042)][[Code](https://github.com/aryopg/clinical_peft)], 2023
 
 3. **Clinical camel: An open-source expert-level medical language model with dialogue-based knowledge encoding.** `preprint`
 
@@ -620,7 +620,7 @@ Low-Rank Adaptation(LoRA), which updates the dense neural network layers with pl
 
 5. **Assertion detection large language model in-context learning lora fine-tuning.** `preprint`
 
-    *Ji Y, Yu Z, Wang Y.* [[PDF](http://arxiv.org/abs/2401.17602v1)], 2024
+    *Ji Y, Yu Z, Wang Y.* [[PDF](http://arxiv.org/abs/2401.17602v1)][[Code](https://github.com/JoyDajunSpaceCraft/Assertion_LLM)], 2024
 
 6. **Ivygpt: Interactive chinese pathway language model in medical domain.** `CAAI`
 
@@ -648,7 +648,7 @@ Low-Rank Adaptation(LoRA), which updates the dense neural network layers with pl
 
 12. **Db-gpt: Large language model meets database.** `Data Science and Engineering`
 
-    *Zhou X, Sun Z, Li G.* [[PDF](https://link.springer.com/article/10.1007/s41019-023-00235-6)], 2024
+    *Zhou X, Sun Z, Li G.* [[PDF](https://link.springer.com/article/10.1007/s41019-023-00235-6)][[Code](https://github.com/TsinghuaDatabaseGroup/DB-GPT)], 2024
 
 ### <img src="./fig/star.svg" width="15" height="15" /> Vision Tasks
 
@@ -660,11 +660,11 @@ Low-Rank Adaptation(LoRA), which updates the dense neural network layers with pl
 
 2. **Implicit style-content separation using b-lora.** `preprint`
 
-   *Frenkel Y, Vinker Y, Shamir A, Cohen-Or D.* [[PDF](http://arxiv.org/abs/2403.14572v1)], 2024
+   *Frenkel Y, Vinker Y, Shamir A, Cohen-Or D.* [[PDF](http://arxiv.org/abs/2403.14572v1)][[Code](https://github.com/yardenfren1996/B-LoRA)], 2024
 
 3. **Facechain: A playground for human-centric artificial intelligence generated content.** `preprint`
 
-   *Liu Y, Yu C, Shang L, He Y, Wu Z, Wang X, Xu C, Xie H, Wang W, Zhao Y, Zhu L, Cheng C, Chen W, Yao Y, Zhou W, Xu J, Wang Q, Chen Y, Xie X, Sun B.* [[PDF](http://arxiv.org/abs/2308.14256v2)], 2023
+   *Liu Y, Yu C, Shang L, He Y, Wu Z, Wang X, Xu C, Xie H, Wang W, Zhao Y, Zhu L, Cheng C, Chen W, Yao Y, Zhou W, Xu J, Wang Q, Chen Y, Xie X, Sun B.* [[PDF](http://arxiv.org/abs/2308.14256v2)][[Code](https://github.com/modelscope/facechain)], 2023
 
 4. **Calliffusion: Chinese calligraphy generation and style transfer with diffusion modeling.** `preprint`
 
@@ -680,7 +680,7 @@ Low-Rank Adaptation(LoRA), which updates the dense neural network layers with pl
 
 7. **OMG: occlusion-friendly personalized multi-concept generation in diffusion models.** `preprint`
 
-   *Kong Z, Zhang Y, Yang T, Wang T, Zhang K, Wu B, Chen G, Liu W, Luo W.* [[PDF](http://arxiv.org/abs/2403.10983v1)], 2024
+   *Kong Z, Zhang Y, Yang T, Wang T, Zhang K, Wu B, Chen G, Liu W, Luo W.* [[PDF](http://arxiv.org/abs/2403.10983v1)][[Code](https://github.com/kongzhecn/OMG)], 2024
 
 8. **Space narrative: Generating images and 3d scenes of chinese garden from text using deep learning.** `xArch–creativity in the age of digital reproduction symposium`
 
@@ -692,7 +692,7 @@ Low-Rank Adaptation(LoRA), which updates the dense neural network layers with pl
 
 10. **Customizing 360-degree panoramas through text-to-image diffusion models.** `WACV`
 
-    *Wang H, Xiang X, Fan Y, Xue J.* [[PDF](http://arxiv.org/abs/2310.18840v2)], 2024
+    *Wang H, Xiang X, Fan Y, Xue J.* [[PDF](http://arxiv.org/abs/2310.18840v2)][[Code](https://github.com/littlewhitesea/StitchDiffusion)], 2024
 
 11. **Smooth diffusion: Crafting smooth latent spaces in diffusion models.** `preprint`
 
@@ -700,7 +700,7 @@ Low-Rank Adaptation(LoRA), which updates the dense neural network layers with pl
 
 12. **Resadapter: Domain consistent resolution adapter for diffusion models.** `preprint`
 
-    *Cheng J, Xie P, Xia X, Li J, Wu J, Ren Y, Li H, Xiao X, Zheng M, Fu L.* [[PDF](http://arxiv.org/abs/2403.02084v1)], 2024
+    *Cheng J, Xie P, Xia X, Li J, Wu J, Ren Y, Li H, Xiao X, Zheng M, Fu L.* [[PDF](http://arxiv.org/abs/2403.02084v1)][[Code](https://github.com/bytedance/res-adapter)], 2024
 
 13. **Continual diffusion with stamina: Stack-and-mask incremental adapters.** `CVPR`
 
@@ -716,11 +716,11 @@ Low-Rank Adaptation(LoRA), which updates the dense neural network layers with pl
 
 16. **Mix-of-show: Decentralized low-rank adaptation for multi-concept customization of diffusion models.** `NeurIPS`
 
-    *Gu Y, Wang X, Wu J Z, Shi Y, Chen Y, Fan Z, Xiao W, Zhao R, Chang S, Wu W, Ge Y, Shan Y, Shou M Z.* [[PDF](http://arxiv.org/abs/2305.18292v2)], 2023
+    *Gu Y, Wang X, Wu J Z, Shi Y, Chen Y, Fan Z, Xiao W, Zhao R, Chang S, Wu W, Ge Y, Shan Y, Shou M Z.* [[PDF](http://arxiv.org/abs/2305.18292v2)][[Code](https://github.com/TencentARC/Mix-of-Show)], 2023
 
 17. **LCM-lora: A universal stable-diffusion acceleration module.** `preprint`
 
-    *Luo S, Tan Y, Patil S, Gu D, Platen v P, Passos A, Huang L, Li J, Zhao H.* [[PDF](http://arxiv.org/abs/2311.05556v1)], 2023
+    *Luo S, Tan Y, Patil S, Gu D, Platen v P, Passos A, Huang L, Li J, Zhao H.* [[PDF](http://arxiv.org/abs/2311.05556v1)][[Code](https://github.com/luosiallen/latent-consistency-model)], 2023
 
 18. **Lora-enhanced distillation on guided diffusion models.** `preprint`
 
@@ -732,11 +732,11 @@ Low-Rank Adaptation(LoRA), which updates the dense neural network layers with pl
 
 20. **Dragvideo: Interactive drag-style video editing.** `preprint`
 
-    *Deng Y, Wang R, Zhang Y, Tai Y, Tang C.* [[PDF](http://arxiv.org/abs/2312.02216v1)], 2023
+    *Deng Y, Wang R, Zhang Y, Tai Y, Tang C.* [[PDF](http://arxiv.org/abs/2312.02216v1)][[Code](https://github.com/RickySkywalker/DragVideo-Official)], 2023
 
 21. **Rerender A video: Zero-shot text-guided video-to-video translation.** `SIGGRAPH`
 
-    *Yang S, Zhou Y, Liu Z, Loy C C.* [[PDF](http://arxiv.org/abs/2306.07954v2)], 2023
+    *Yang S, Zhou Y, Liu Z, Loy C C.* [[PDF](http://arxiv.org/abs/2306.07954v2)][[Code](https://github.com/williamyang1991/Rerender_A_Video)], 2023
 
 22. **Infusion: Inject and attention fusion for multi concept zero-shot text-based video editing.** `ICCV`
 
@@ -748,15 +748,15 @@ Low-Rank Adaptation(LoRA), which updates the dense neural network layers with pl
 
 24. **Animatediff: Animate your personalized text-to-image diffusion models without specific tuning.** `preprint`
 
-    *Guo Y, Yang C, Rao A, Wang Y, Qiao Y, Lin D, Dai B.* [[PDF](http://arxiv.org/abs/2307.04725v2)], 2023
+    *Guo Y, Yang C, Rao A, Wang Y, Qiao Y, Lin D, Dai B.* [[PDF](http://arxiv.org/abs/2307.04725v2)][[Code](https://github.com/guoyww/AnimateDiff)], 2023
 
 25. **Dreamcontrol: Control-based text-to-3d generation with 3d self-prior.** `preprint`
 
-    *Huang T, Zeng Y, Zhang Z, Xu W, Xu H, Xu S, Lau R W H, Zuo W.* [[PDF](http://arxiv.org/abs/2312.06439v2)], 2023
+    *Huang T, Zeng Y, Zhang Z, Xu W, Xu H, Xu S, Lau R W H, Zuo W.* [[PDF](http://arxiv.org/abs/2312.06439v2)][[Code](https://github.com/tyhuang0428/DreamControl)], 2023
 
 26. **X-dreamer: Creating high-quality 3d content by bridging the domain gap between text-to-2d and text-to-3d generation.** `preprint`
 
-    *Ma Y, Fan Y, Ji J, Wang H, Sun X, Jiang G, Shu A, Ji R.* [[PDF](http://arxiv.org/abs/2312.00085v2)], 2023
+    *Ma Y, Fan Y, Ji J, Wang H, Sun X, Jiang G, Shu A, Ji R.* [[PDF](http://arxiv.org/abs/2312.00085v2)][[Code](https://github.com/xmu-xiaoma666/X-Dreamer)], 2023
 
 27. **Boosting3d: High-fidelity image-to-3d by boosting 2d diffusion prior to 3d prior with progressive learning.** `preprint`
 
@@ -824,11 +824,11 @@ Low-Rank Adaptation(LoRA), which updates the dense neural network layers with pl
 
 2. **mPlug-OWL: Modularization Empowers Large Language Models with Multimodality.** `preprint`
 
-    *Ye Q, Xu H, Xu G, Ye J, Yan M, Zhou Y, Wang J, Hu A, Shi P, Shi Y, Li C, Xu Y, Chen H, Tian J, Qi Q, Zhang J, Huang F.* [[PDF](http://arxiv.org/abs/2304.14178v2)], 2023
+    *Ye Q, Xu H, Xu G, Ye J, Yan M, Zhou Y, Wang J, Hu A, Shi P, Shi Y, Li C, Xu Y, Chen H, Tian J, Qi Q, Zhang J, Huang F.* [[PDF](http://arxiv.org/abs/2304.14178v2)][[Code](https://github.com/X-PLUG/mPLUG-Owl)], 2023
 
 3. **Collavo: Crayon Large Language and Vision Model.** `preprint`
 
-    *Lee B, Park B, Kim CW, Ro YM.* [[PDF](http://arxiv.org/abs/2402.11248v2)], 2024
+    *Lee B, Park B, Kim CW, Ro YM.* [[PDF](http://arxiv.org/abs/2402.11248v2)][[Code](https://github.com/ByungKwanLee/CoLLaVO)], 2024
 
 #### Video-Text
 
@@ -838,7 +838,7 @@ Low-Rank Adaptation(LoRA), which updates the dense neural network layers with pl
 
 2. **Molca: Molecular graph-language modeling with cross-modal projector and uni-modal adapter.** `EMNLP. `
 
-    *Z. Liu, S. Li, Y. Luo, H. Fei, Y. Cao, K. Kawaguchi, X. Wang, T. Chua.* [[PDF](http://arxiv.org/abs/2310.12798v4)], 2023
+    *Z. Liu, S. Li, Y. Luo, H. Fei, Y. Cao, K. Kawaguchi, X. Wang, T. Chua.* [[PDF](http://arxiv.org/abs/2310.12798v4)][[Code](https://github.com/acharkq/MolCA)], 2023
 
 3. **TPLLM: A traffic prediction framework based on pretrained large language models.** `preprint`
 
