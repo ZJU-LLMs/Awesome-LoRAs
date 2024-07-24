@@ -505,149 +505,150 @@ Low-Rank Adaptation(LoRA), which updates the dense neural network layers with pl
 
 1. **DialogueLLM: Context and Emotion Knowledge-Tuned Large Language Models for Emotion Recognition in Conversations.** `preprint`
 
-    *Zhang Y, Wang M, Wu Y, Tiwari P, Li Q, Wang B, Qin J.* 2024.
+    *Zhang Y, Wang M, Wu Y, Tiwari P, Li Q, Wang B, Qin J.* [[PDF](http://arxiv.org/abs/2310.11374v4)], 2024.
 
 2. **Label Supervised LLaMA Finetuning.** `preprint`
 
-    *Li Z, Li X, Liu Y, Xie H, Li J, Wang F L, Li Q, Zhong X.* 2023.
+    *Li Z, Li X, Liu Y, Xie H, Li J, Wang F L, Li Q, Zhong X.* [[PDF](http://arxiv.org/abs/2310.01208v1)], 2023.
 
 3. **Speaker Attribution in German Parliamentary Debates with QLoRA-Adapted Large Language Models.** `preprint`
 
-    *Bornheim T, Grieger N, Blaneck P G, Bialonski S.* 2024.
+    *Bornheim T, Grieger N, Blaneck P G, Bialonski S.* [[PDF](http://arxiv.org/abs/2310.10083v2)], 2024.
 
 4. **AutoRE: Document-Level Relation Extraction with Large Language Models.** `preprint`
 
-    *Xue L, Zhang D, Dong Y, Tang J.* 2024.
+    *Xue L, Zhang D, Dong Y, Tang J.* [[PDF](http://arxiv.org/abs/2308.10252v1)] [[Code](https://github.com/THUDM/AutoRE)], 2024.
 
-5. **Steering Large Language Models for Machine Translation with Finetuning and In-Context Learning.** `EMNLP`
+5. **Steering Large Language Models for Machine Translation with Finetuning and In-Context Learning.** EMNLP
 
-    *Alves D M, Guerreiro N M, Alves J, Pombal J, Rei R, Souza D J G C, Colombo P, Martins A F T.* 2023.
+    *Alves D M, Guerreiro N M, Alves J, Pombal J, Rei R, Souza D J G C, Colombo P, Martins A F T.* [[PDF](http://arxiv.org/abs/2310.13448v1)][[Code](https://github.com/deep-spin/translation_llm)], 2023.
 
 6. **Finetuning Large Language Models for Domain-Specific Machine Translation.** `preprint`
 
-    *Zheng J, Hong H, Wang X, Su J, Liang Y, Wu S.* 2024.
+    *Zheng J, Hong H, Wang X, Su J, Liang Y, Wu S.* [[PDF](http://arxiv.org/abs/2402.15061v1)], 2024.
 
 7. **Assessing Translation Capabilities of Large Language Models Involving English and Indian Languages.** `preprint`
 
-    *Mujadia V, Urlana A, Bhaskar Y, Pavani P A, Shravya K, Krishnamurthy P, Sharma D M.* 2023.
+    *Mujadia V, Urlana A, Bhaskar Y, Pavani P A, Shravya K, Krishnamurthy P, Sharma D M.* [[PDF](http://arxiv.org/abs/2402.13929v3)], 2023.
 
-8. **Personalized LoRA for Human-Centered Text Understanding.** `AAAI`
+8. **Personalized LoRA for Human-Centered Text Understanding.** AAAI
 
-    *Zhang Y, Wang J, Yu L, Xu D, Zhang X.* 2024.
+    *Zhang Y, Wang J, Yu L, Xu D, Zhang X.* [[PDF](http://arxiv.org/abs/2403.06208v1)][[Code](https://github.com/yoyo-yun/PLoRA.)], 2024.
 
-9. **Y-tuning: An Efficient Tuning Paradigm for Large-Scale Pre-Trained Models via Label Representation Learning.** `Frontiers of Computer Science`
+9. **Y-tuning: An Efficient Tuning Paradigm for Large-Scale Pre-Trained Models via Label Representation Learning.** Frontiers of Computer Science
 
-    *Liu Y, An C, Qiu X.* 2024.
+    *Liu Y, An C, Qiu X.* [[PDF](https://arxiv.org/abs/2202.09817)], 2024.
+
 
 #### Code Task
 
 1. **Delving into parameter-efficient fine-tuning in code change learning: An empirical study.** `preprint`
-   
-   *Liu S, Keung J, Yang Z, Liu F, Zhou Q, Liao Y*. 2024
+
+    *Liu S, Keung J, Yang Z, Liu F, Zhou Q, Liao Y.* [[PDF](https://arxiv.org/abs/2402.06247)], 2024.
 
 2. **An empirical study on jit defect prediction based on bert-style model.** `preprint`
-   
-   *Guo Y, Gao X, Jiang B*. 2024
+
+    *Guo Y, Gao X, Jiang B.* [[PDF](http://arxiv.org/abs/2403.11158)], 2024.
 
 3. **Parameter-efficient finetuning of transformers for source code.** `preprint`
-   
-   *Ayupov S, Chirkova N*. 2022
+
+    *Ayupov S, Chirkova N.* [[PDF](https://arxiv.org/abs/2212.05901)], 2022.
 
 4. **Repairllama: Efficient representations and fine-tuned adapters for program repair.** `preprint`
-   
-   *Silva A, Fang S, Monperrus M*. 2023
+
+    *Silva A, Fang S, Monperrus M.* [[PDF](https://arxiv.org/abs/2312.15698)], 2023.
 
 5. **Analyzing the effectiveness of large language models on text-to-sql synthesis.** `preprint`
-   
-   *Roberson R, Kaki G, Trivedi A*. 2024
+
+    *Roberson R, Kaki G, Trivedi A.* [[PDF](https://arxiv.org/abs/2401.12379)], 2024.
 
 6. **Stelocoder: a decoder-only LLM for multi-language to python code translation.** `preprint`
-   
-   *Pan J, Sadé A, Kim J, Soriano E, Sole G, Flamant S*. 2023
+
+    *Pan J, Sadé A, Kim J, Soriano E, Sole G, Flamant S.* [[PDF](http://arxiv.org/abs/2310.15539v2)], 2023.
 
 #### Model Alignment Task
 
 1. **Perl: parameter efficient reinforcement learning from human feedback.** `preprint`
 
-    *H. Sidahmed, S. Phatale, A. Hutcheson, Z. Lin, Z. Chen, Z. Yu, J. Jin, R. Komarytsia, C. Ahlheim, Y. Zhu, S. Chaudhary, B. Li, S. Ganesh, B. Byrne, J. Hoffmann, H. Mansoor, W. Li, A. Rastogi, L. Dixon.* 2024
+    *H. Sidahmed, S. Phatale, A. Hutcheson, Z. Lin, Z. Chen, Z. Yu, J. Jin, R. Komarytsia, C. Ahlheim, Y. Zhu, S. Chaudhary, B. Li, S. Ganesh, B. Byrne, J. Hoffmann, H. Mansoor, W. Li, A. Rastogi, L. Dixon.* [[PDF](http://arxiv.org/abs/2403.10704v1)], 2024
 
 2. **Efficient RLHF: reducing the memory usage of PPO.** `preprint`
 
-    *M. Santacroce, Y. Lu, H. Yu, Y. Li, Y. Shen.* 2023
+    *M. Santacroce, Y. Lu, H. Yu, Y. Li, Y. Shen.* [[PDF](http://arxiv.org/abs/2309.00754v1)], 2023
 
 3. **Exploring the impact of low-rank adaptation on the performance, efficiency, and regularization of RLHF.** `preprint`
 
-    *S. Sun, D. Gupta, M. Iyyer.* 2023
+    *S. Sun, D. Gupta, M. Iyyer.* [[PDF](http://arxiv.org/abs/2309.09055v1)], 2023
 
 4. **Dmoerm: Recipes of mixture-of-experts for effective reward modeling.** `preprint`
 
-    *S. Quan.* 2024
+    *S. Quan.* [[PDF](http://arxiv.org/abs/2403.01197v1)], 2024
 
 5. **Improving reinforcement learning from human feedback with efficient reward model ensemble.** `preprint`
 
-    *S. Zhang, Z. Chen, S. Chen, Y. Shen, Z. Sun, C. Gan.* 2024
+    *S. Zhang, Z. Chen, S. Chen, Y. Shen, Z. Sun, C. Gan.* [[PDF](http://arxiv.org/abs/2401.16635v1)], 2024
 
 6. **Uncertainty-penalized reinforcement learning from human feedback with diverse reward lora ensembles.** `preprint`
 
-    *Y. Zhai, H. Zhang, Y. Lei, Y. Yu, K. Xu, D. Feng, B. Ding, H. Wang.* 2024
+    *Y. Zhai, H. Zhang, Y. Lei, Y. Yu, K. Xu, D. Feng, B. Ding, H. Wang.* [[PDF](http://arxiv.org/abs/2401.00243v1)], 2024
 
 7. **Bayesian reward models for LLM alignment.** `preprint`
 
-    *A. X. Yang, M. Robeyns, T. Coste, J. Wang, H. Bou-Ammar, L. Aitchison.* 2024
+    *A. X. Yang, M. Robeyns, T. Coste, J. Wang, H. Bou-Ammar, L. Aitchison.* [[PDF](http://arxiv.org/abs/2402.13210v1)], 2024
 
 8. **Bayesian low-rank adaptation for large language models.** `preprint`
 
-    *A. X. Yang, M. Robeyns, X. Wang, L. Aitchison.* 2023
+    *A. X. Yang, M. Robeyns, X. Wang, L. Aitchison.* [[PDF](http://arxiv.org/abs/2308.13111v5)], 2023
 
 #### Vertical Domain Task
 
 1. **Bioinstruct: Instruction tuning of large language models for biomedical natural language processing.** `preprint`
 
-    *Tran H, Yang Z, Yao Z, Yu H.* 2023
+    *Tran H, Yang Z, Yao Z, Yu H.* [[PDF](http://arxiv.org/abs/2310.19975v2)], 2023
 
 2. **Parameterefficient fine-tuning of llama for the clinical domain.** `preprint`
 
-    *Gema A P, Daines L, Minervini P, Alex B.* 2023
+    *Gema A P, Daines L, Minervini P, Alex B.* [[PDF](https://arxiv.org/abs/2307.03042)], 2023
 
 3. **Clinical camel: An open-source expert-level medical language model with dialogue-based knowledge encoding.** `preprint`
 
-    *Toma A, Lawler P R, Ba J, Krishnan R G, Rubin B B, Wang B.* 2023
+    *Toma A, Lawler P R, Ba J, Krishnan R G, Rubin B B, Wang B.* [[PDF](http://arxiv.org/abs/2305.12031v2)], 2023
 
 4. **Suryakiran at mediqa-sum 2023: Leveraging lora for clinical dialogue summarization.** `CLEF`
 
-    *Suri K, Mishra P, Saha S, Singh A.* 2023
+    *Suri K, Mishra P, Saha S, Singh A.* [[PDF](http://arxiv.org/abs/2307.05162v1)], 2023
 
 5. **Assertion detection large language model in-context learning lora fine-tuning.** `preprint`
 
-    *Ji Y, Yu Z, Wang Y.* 2024
+    *Ji Y, Yu Z, Wang Y.* [[PDF](http://arxiv.org/abs/2401.17602v1)], 2024
 
 6. **Ivygpt: Interactive chinese pathway language model in medical domain.** `CAAI`
 
-    *Wang R, Duan Y, Lam C, Chen J, Xu J, Chen H, Liu X, Pang P C, Tan T.* 2023
+    *Wang R, Duan Y, Lam C, Chen J, Xu J, Chen H, Liu X, Pang P C, Tan T.* [[PDF](http://arxiv.org/abs/2307.10512v1)], 2023
 
 7. **SM70: A large language model for medical devices.** `preprint`
 
-    *Bhatti A, Parmar S, Lee S.* 2023
+    *Bhatti A, Parmar S, Lee S.* [[PDF](http://arxiv.org/abs/2312.06974v1)], 2023
 
 8. **Finllama: Financial sentiment classification for algorithmic trading applications.** `preprint`
 
-    *Konstantinidis T, Iacovides G, Xu M, Constantinides T G, Mandic D P.* 2024
+    *Konstantinidis T, Iacovides G, Xu M, Constantinides T G, Mandic D P.* [[PDF](http://arxiv.org/abs/2403.12285v1)], 2024
 
 9. **Financial news analytics using fine-tuned llama 2 GPT model.** `preprint`
 
-    *Pavlyshenko B M.* 2023
+    *Pavlyshenko B M.* [[PDF](http://arxiv.org/abs/2308.13032v2)], 2023
 
 10. **Fingpt: Democratizing internet-scale data for financial large language models.** `preprint`
 
-    *Liu X, Wang G, Zha D.* 2023
+    *Liu X, Wang G, Zha D.* [[PDF](http://arxiv.org/abs/2307.10485v2)], 2023
 
 11. **Ra-cfgpt: Chinese financial assistant with retrievalaugmented large language model.** `Frontiers of Computer Science`
 
-    *Li J, Lei Y, Bian Y, Cheng D, Ding Z, Jiang C.* 2024
+    *Li J, Lei Y, Bian Y, Cheng D, Ding Z, Jiang C.* [[PDF](https://journal.hep.com.cn/fcs/EN/10.1007/s11704-024-31018-5)], 2024
 
 12. **Db-gpt: Large language model meets database.** `Data Science and Engineering`
 
-    *Zhou X, Sun Z, Li G.* 2024
+    *Zhou X, Sun Z, Li G.* [[PDF](https://link.springer.com/article/10.1007/s41019-023-00235-6)], 2024
 
 ### <img src="./fig/star.svg" width="15" height="15" /> Vision Tasks
 
@@ -655,157 +656,157 @@ Low-Rank Adaptation(LoRA), which updates the dense neural network layers with pl
 
 1. **Diffstyler: Diffusion-based localized image style transfer.** `preprint`
 
-   *Li S.* 2024
+   *Li S.* [[PDF](http://arxiv.org/abs/2403.18461v1)], 2024
 
 2. **Implicit style-content separation using b-lora.** `preprint`
 
-   *Frenkel Y, Vinker Y, Shamir A, Cohen-Or D.* 2024
+   *Frenkel Y, Vinker Y, Shamir A, Cohen-Or D.* [[PDF](http://arxiv.org/abs/2403.14572v1)], 2024
 
 3. **Facechain: A playground for human-centric artificial intelligence generated content.** `preprint`
 
-   *Liu Y, Yu C, Shang L, He Y, Wu Z, Wang X, Xu C, Xie H, Wang W, Zhao Y, Zhu L, Cheng C, Chen W, Yao Y, Zhou W, Xu J, Wang Q, Chen Y, Xie X, Sun B.* 2023
+   *Liu Y, Yu C, Shang L, He Y, Wu Z, Wang X, Xu C, Xie H, Wang W, Zhao Y, Zhu L, Cheng C, Chen W, Yao Y, Zhou W, Xu J, Wang Q, Chen Y, Xie X, Sun B.* [[PDF](http://arxiv.org/abs/2308.14256v2)], 2023
 
 4. **Calliffusion: Chinese calligraphy generation and style transfer with diffusion modeling.** `preprint`
 
-   *Liao Q, Xia G, Wang Z.* 2023
+   *Liao Q, Xia G, Wang Z.* [[PDF](http://arxiv.org/abs/2305.19124v1)], 2023
 
 5. **Style transfer to calvin and hobbes comics using stable diffusion.** `preprint`
 
-   *Shrestha S, Venkataramanan A, others.* 2023
+   *Shrestha S, Venkataramanan A, others.* [[PDF](http://arxiv.org/abs/2312.03993v1)], 2023
 
 6. **Block-wise lora: Revisiting fine-grained lora for effective personalization and stylization in text-to-image generation.** `preprint`
 
-   *Li L, Zeng H, Yang C, Jia H, Xu D.* 2024
+   *Li L, Zeng H, Yang C, Jia H, Xu D.* [[PDF](http://arxiv.org/abs/2403.07500v1)], 2024
 
 7. **OMG: occlusion-friendly personalized multi-concept generation in diffusion models.** `preprint`
 
-   *Kong Z, Zhang Y, Yang T, Wang T, Zhang K, Wu B, Chen G, Liu W, Luo W.* 2024
+   *Kong Z, Zhang Y, Yang T, Wang T, Zhang K, Wu B, Chen G, Liu W, Luo W.* [[PDF](http://arxiv.org/abs/2403.10983v1)], 2024
 
 8. **Space narrative: Generating images and 3d scenes of chinese garden from text using deep learning.** `xArch–creativity in the age of digital reproduction symposium`
 
-   *Shi J, Hua H.* 2023, 236–243
+   *Shi J, Hua H.* [[PDF](http://arxiv.org/abs/2311.00339v1)], 2023
 
 9. **Generating coherent comic with rich story using chatgpt and stable diffusion.** `preprint`
 
-   *Jin Z, Song Z.* 2023
+   *Jin Z, Song Z.* [[PDF](http://arxiv.org/abs/2305.11067v2)], 2023
 
 10. **Customizing 360-degree panoramas through text-to-image diffusion models.** `WACV`
 
-    *Wang H, Xiang X, Fan Y, Xue J.* 2024
+    *Wang H, Xiang X, Fan Y, Xue J.* [[PDF](http://arxiv.org/abs/2310.18840v2)], 2024
 
 11. **Smooth diffusion: Crafting smooth latent spaces in diffusion models.** `preprint`
 
-    *Guo J, Xu X, Pu Y, Ni Z, Wang C, Vasu M, Song S, Huang G, Shi H.* 2023
+    *Guo J, Xu X, Pu Y, Ni Z, Wang C, Vasu M, Song S, Huang G, Shi H.* [[PDF](http://arxiv.org/abs/2312.04410v1)], 2023
 
 12. **Resadapter: Domain consistent resolution adapter for diffusion models.** `preprint`
 
-    *Cheng J, Xie P, Xia X, Li J, Wu J, Ren Y, Li H, Xiao X, Zheng M, Fu L.* 2024
+    *Cheng J, Xie P, Xia X, Li J, Wu J, Ren Y, Li H, Xiao X, Zheng M, Fu L.* [[PDF](http://arxiv.org/abs/2403.02084v1)], 2024
 
 13. **Continual diffusion with stamina: Stack-and-mask incremental adapters.** `CVPR`
 
-    *Smith J S, Hsu Y C, Kira Z, Shen Y, Jin H.* 2024
+    *Smith J S, Hsu Y C, Kira Z, Shen Y, Jin H.* [[PDF](http://arxiv.org/abs/2311.18763v1)], 2024
 
 14. **Dreamsync: Aligning text-to-image generation with image understanding feedback.** `CVPR`
 
-    *Sun J, Fu D, Hu Y, Wang S, Rassin R, Juan D C, Alon D, Herrmann C, Steenkiste v S, Krishna R, others.* 2023
+    *Sun J, Fu D, Hu Y, Wang S, Rassin R, Juan D C, Alon D, Herrmann C, Steenkiste v S, Krishna R, others.* [[PDF](http://arxiv.org/abs/2311.17946v1)], 2023
 
 15. **Styleadapter: A single-pass lora-free model for stylized image generation.** `preprint`
 
-    *Wang Z, Wang X, Xie L, Qi Z, Shan Y, Wang W, Luo P.* 2023
+    *Wang Z, Wang X, Xie L, Qi Z, Shan Y, Wang W, Luo P.* [[PDF](http://arxiv.org/abs/2309.01770v1)], 2023
 
 16. **Mix-of-show: Decentralized low-rank adaptation for multi-concept customization of diffusion models.** `NeurIPS`
 
-    *Gu Y, Wang X, Wu J Z, Shi Y, Chen Y, Fan Z, Xiao W, Zhao R, Chang S, Wu W, Ge Y, Shan Y, Shou M Z.* 2023
+    *Gu Y, Wang X, Wu J Z, Shi Y, Chen Y, Fan Z, Xiao W, Zhao R, Chang S, Wu W, Ge Y, Shan Y, Shou M Z.* [[PDF](http://arxiv.org/abs/2305.18292v2)], 2023
 
 17. **LCM-lora: A universal stable-diffusion acceleration module.** `preprint`
 
-    *Luo S, Tan Y, Patil S, Gu D, Platen v P, Passos A, Huang L, Li J, Zhao H.* 2023
+    *Luo S, Tan Y, Patil S, Gu D, Platen v P, Passos A, Huang L, Li J, Zhao H.* [[PDF](http://arxiv.org/abs/2311.05556v1)], 2023
 
 18. **Lora-enhanced distillation on guided diffusion models.** `preprint`
 
-    *Golnari P A.* 2023
+    *Golnari P A.* [[PDF](http://arxiv.org/abs/2312.06899v1)], 2023
 
 19. **Customize-a-video: One-shot motion customization of text-to-video diffusion models.** `preprint`
 
-    *Ren Y, Zhou Y, Yang J, Shi J, Liu D, Liu F, Kwon M, Shrivastava A.* 2024
+    *Ren Y, Zhou Y, Yang J, Shi J, Liu D, Liu F, Kwon M, Shrivastava A.* [[PDF](http://arxiv.org/abs/2402.14780v1)], 2024
 
 20. **Dragvideo: Interactive drag-style video editing.** `preprint`
 
-    *Deng Y, Wang R, Zhang Y, Tai Y, Tang C.* 2023
+    *Deng Y, Wang R, Zhang Y, Tai Y, Tang C.* [[PDF](http://arxiv.org/abs/2312.02216v1)], 2023
 
 21. **Rerender A video: Zero-shot text-guided video-to-video translation.** `SIGGRAPH`
 
-    *Yang S, Zhou Y, Liu Z, Loy C C.* 2023
+    *Yang S, Zhou Y, Liu Z, Loy C C.* [[PDF](http://arxiv.org/abs/2306.07954v2)], 2023
 
 22. **Infusion: Inject and attention fusion for multi concept zero-shot text-based video editing.** `ICCV`
 
-    *Khandelwal A.* 2023
+    *Khandelwal A.* [[PDF](http://arxiv.org/abs/2308.00135v3)], 2023
 
 23. **Stable video diffusion: Scaling latent video diffusion models to large datasets.** `preprint`
 
-    *Blattmann A, Dockhorn T, Kulal S, Mendelevitch D, Kilian M, Lorenz D, Levi Y, English Z, Voleti V, Letts A, others.* 2023
+    *Blattmann A, Dockhorn T, Kulal S, Mendelevitch D, Kilian M, Lorenz D, Levi Y, English Z, Voleti V, Letts A, others.* [[PDF](http://arxiv.org/abs/2311.15127v1)], 2023
 
 24. **Animatediff: Animate your personalized text-to-image diffusion models without specific tuning.** `preprint`
 
-    *Guo Y, Yang C, Rao A, Wang Y, Qiao Y, Lin D, Dai B.* 2023
+    *Guo Y, Yang C, Rao A, Wang Y, Qiao Y, Lin D, Dai B.* [[PDF](http://arxiv.org/abs/2307.04725v2)], 2023
 
 25. **Dreamcontrol: Control-based text-to-3d generation with 3d self-prior.** `preprint`
 
-    *Huang T, Zeng Y, Zhang Z, Xu W, Xu H, Xu S, Lau R W H, Zuo W.* 2023
+    *Huang T, Zeng Y, Zhang Z, Xu W, Xu H, Xu S, Lau R W H, Zuo W.* [[PDF](http://arxiv.org/abs/2312.06439v2)], 2023
 
 26. **X-dreamer: Creating high-quality 3d content by bridging the domain gap between text-to-2d and text-to-3d generation.** `preprint`
 
-    *Ma Y, Fan Y, Ji J, Wang H, Sun X, Jiang G, Shu A, Ji R.* 2023
+    *Ma Y, Fan Y, Ji J, Wang H, Sun X, Jiang G, Shu A, Ji R.* [[PDF](http://arxiv.org/abs/2312.00085v2)], 2023
 
 27. **Boosting3d: High-fidelity image-to-3d by boosting 2d diffusion prior to 3d prior with progressive learning.** `preprint`
 
-    *Yu K, Liu J, Feng M, Cui M, Xie X.* 2023
+    *Yu K, Liu J, Feng M, Cui M, Xie X.* [[PDF](http://arxiv.org/abs/2311.13617v1)], 2023
 
 28. **As-plausible-as-possible: Plausibility-aware mesh deformation using 2d diffusion priors.** `CVPR`
 
-    *Yoo S, Kim K, Kim V G, Sung M.* 2024
+    *Yoo S, Kim K, Kim V G, Sung M.* [[PDF](http://arxiv.org/abs/2311.16739v1)], 2024
 
 29. **Dragtex: Generative point-based texture editing on 3d mesh.** `preprint`
 
-    *Zhang Y, Xu Q, Zhang L.* 2024
+    *Zhang Y, Xu Q, Zhang L.* [[PDF](http://arxiv.org/abs/2403.02217v1)], 2024
 
 #### Image Segmentation Task
 
 1. **Samlp: A customized segment anything model for license plate detection.** `preprint`
 
-    *Ding H, Gao J, Yuan Y, Wang Q*. 2024
+    *Ding H, Gao J, Yuan Y, Wang Q*. [[PDF](http://arxiv.org/abs/2401.06374v1)], 2024
 
 2. **Sam-based instance segmentation models for the automation of structural damage detection.** `preprint`
 
-    *Ye Z, Lovell L, Faramarzi A, Ninic J*. 2024
+    *Ye Z, Lovell L, Faramarzi A, Ninic J*. [[PDF](http://arxiv.org/abs/2401.15266v2)], 2024
 
 3. **Segment any cell: A sam-based auto-prompting fine-tuning framework for nuclei segmentation.** `preprint`
 
-    *Na S, Guo Y, Jiang F, Ma H, Huang J*. 2024
+    *Na S, Guo Y, Jiang F, Ma H, Huang J*. [[PDF](http://arxiv.org/abs/2401.13220v1)], 2024
 
 4. **SAM-OCTA: prompting segment-anything for OCTA image segmentation.** `preprint`
 
-    *Chen X, Wang C, Ning H, Li S*. 2023
+    *Chen X, Wang C, Ning H, Li S*. [[PDF](http://arxiv.org/abs/2310.07183v2)], 2023
 
 5. **Cheap lunch for medical image segmentation by fine-tuning SAM on few exemplars.** `preprint`
 
-    *Feng W, Zhu L, Yu L*. 2023
+    *Feng W, Zhu L, Yu L*. [[PDF](http://arxiv.org/abs/2308.14133v1)], 2023
 
 6. **Customized segment anything model for medical image segmentation.** `preprint`
 
-    *Zhang K, Liu D*. 2023
+    *Zhang K, Liu D*. [[PDF](http://arxiv.org/abs/2304.13785v2)], 2023
 
 7. **SAM meets robotic surgery: An empirical study on generalization, robustness and adaptation.** `MICCAI. `
 
-    *Wang A, Islam M, Xu M, Zhang Y, Ren H*. 2023
+    *Wang A, Islam M, Xu M, Zhang Y, Ren H*. [[PDF](http://arxiv.org/abs/2308.07156v1)], 2023
 
 8. **Tracking meets lora: Faster training, larger model, stronger performance.** `preprint`
 
-    *Lin L, Fan H, Zhang Z, Wang Y, Xu Y, Ling H*. 2024
+    *Lin L, Fan H, Zhang Z, Wang Y, Xu Y, Ling H*. [[PDF](http://arxiv.org/abs/2403.05231v1)], 2024
 
 9. **Enhancing general face forgery detection via vision transformer with low-rank adaptation.** `MIPR. `
 
-    *Kong C, Li H, Wang S*. 2023
+    *Kong C, Li H, Wang S*. [[PDF](http://arxiv.org/abs/2303.00917v2)], 2023
 
 ### <img src="./fig/star.svg" width="15" height="15" /> Multimodal Tasks
 
@@ -813,35 +814,35 @@ Low-Rank Adaptation(LoRA), which updates the dense neural network layers with pl
 
 1. **SALM: speech-augmented language model with in-context learning for speech recognition and translation.** `preprint`
 
-    *Chen Z, Huang H, Andrusenko A, Hrinchuk O, Puvvada KC, Li J, Ghosh S, Balam J, Ginsburg B.* 2023
+    *Chen Z, Huang H, Andrusenko A, Hrinchuk O, Puvvada KC, Li J, Ghosh S, Balam J, Ginsburg B.* [[PDF](http://arxiv.org/abs/2310.09424v1)], 2023
 
 #### Image-Text
 
 1. **InternLM-XComposer2: Mastering Free-Form Text-Image Composition and Comprehension in Vision-Language Large Model.** `preprint`
 
-    *Chen Z, Huang H, Andrusenko A, Hrinchuk O, Puvvada KC, Li J, Ghosh S, Balam J, Ginsburg B.* 2024
+    *Chen Z, Huang H, Andrusenko A, Hrinchuk O, Puvvada KC, Li J, Ghosh S, Balam J, Ginsburg B.* [[PDF](http://arxiv.org/abs/2401.16420v1)], 2024
 
 2. **mPlug-OWL: Modularization Empowers Large Language Models with Multimodality.** `preprint`
 
-    *Ye Q, Xu H, Xu G, Ye J, Yan M, Zhou Y, Wang J, Hu A, Shi P, Shi Y, Li C, Xu Y, Chen H, Tian J, Qi Q, Zhang J, Huang F.* 2023
+    *Ye Q, Xu H, Xu G, Ye J, Yan M, Zhou Y, Wang J, Hu A, Shi P, Shi Y, Li C, Xu Y, Chen H, Tian J, Qi Q, Zhang J, Huang F.* [[PDF](http://arxiv.org/abs/2304.14178v2)], 2023
 
 3. **Collavo: Crayon Large Language and Vision Model.** `preprint`
 
-    *Lee B, Park B, Kim CW, Ro YM.* 2024
+    *Lee B, Park B, Kim CW, Ro YM.* [[PDF](http://arxiv.org/abs/2402.11248v2)], 2024
 
 #### Video-Text
 
 1. **Where visual speech meets language: VSP-LLM framework for efficient and context-aware visual speech processing.** `preprint`
 
-    *J. H. Yeo, S. Han, M. Kim, Y. M. Ro* 2024
+    *J. H. Yeo, S. Han, M. Kim, Y. M. Ro.* [[PDF](http://arxiv.org/abs/2402.15151v1)], 2024
 
 2. **Molca: Molecular graph-language modeling with cross-modal projector and uni-modal adapter.** `EMNLP. `
 
-    *Z. Liu, S. Li, Y. Luo, H. Fei, Y. Cao, K. Kawaguchi, X. Wang, T. Chua* 2023
+    *Z. Liu, S. Li, Y. Luo, H. Fei, Y. Cao, K. Kawaguchi, X. Wang, T. Chua.* [[PDF](http://arxiv.org/abs/2310.12798v4)], 2023
 
 3. **TPLLM: A traffic prediction framework based on pretrained large language models.** `preprint`
 
-    *Y. Ren, Y. Chen, S. Liu, B. Wang, H. Yu, Z. Cui* 2024
+    *Y. Ren, Y. Chen, S. Liu, B. Wang, H. Yu, Z. Cui.* [[PDF](http://arxiv.org/abs/2403.02221v2)], 2024
 
 ## Contribution
 
