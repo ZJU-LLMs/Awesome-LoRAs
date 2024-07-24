@@ -462,40 +462,40 @@ Low-Rank Adaptation(LoRA), which updates the dense neural network layers with pl
 
 ## LoRA for Federated Learning
 
-### <img src="./fig/star.svg" width="15" height="15" /> Data Heterogeneity
+###  Data Heterogeneity
 
 1. **SLoRA: Federated parameter efficient fine-tuning of language models.** `arXiv preprint`  
-   *Babakniya S, Elkordy A R, Ezzeldin Y H, Liu Q, Song K, El-Khamy M, Avestimehr S.* 2023
+   *Babakniya S, Elkordy A R, Ezzeldin Y H, Liu Q, Song K, El-Khamy M, Avestimehr S.* [[PDF](https://arxiv.org/pdf/2308.06522)], 2023
 
 2. **FeDeRA: Efficient fine-tuning of language models in federated learning leveraging weight decomposition.** `arXiv preprint`  
-   *Yan Y, Tang S, Shi Z, Yang Q.* 2024
+   *Yan Y, Tang S, Shi Z, Yang Q.* [[PDF](https://arxiv.org/pdf/2404.18848)], 2024
 
 3. **Improving LoRA in privacy-preserving federated learning.** `arXiv preprint`  
-   *Sun Y, Li Z, Li Y, Ding B.* 2024
+   *Sun Y, Li Z, Li Y, Ding B.* [[PDF](https://arxiv.org/pdf/2403.12313)], 2024
 
 ### <img src="./fig/star.svg" width="15" height="15" /> Device Heterogeneity
 
 1. **FedMS: Federated learning with mixture of sparsely activated foundation models.** `arXiv preprint`  
-   *Wu P, Li K, Wang T, Wang F.* 2023
+   *Wu P, Li K, Wang T, Wang F.* [[PDF](https://arxiv.org/pdf/2312.15926)], 2023
 
 2. **Federated fine-tuning of large language models under heterogeneous language tasks and client resources.** `arXiv preprint`  
-   *Bai J, Chen D, Qian B, Yao L, Li Y.* 2024
+   *Bai J, Chen D, Qian B, Yao L, Li Y.* [[PDF](https://arxiv.org/pdf/2402.11505)], 2024
 
 3. **Heterogeneous LoRA for federated fine-tuning of on-device foundation models.** `NeurIPS`  
-   *Cho Y J, Liu L, Xu Z, Fahrezi A, Barnes M, Joshi G.* 2023
+   *Cho Y J, Liu L, Xu Z, Fahrezi A, Barnes M, Joshi G.* [[PDF](https://openreview.net/pdf?id=EmV9sGpZ7q)], 2023
 
 ### <img src="./fig/star.svg" width="15" height="15" /> Model Heterogeneity
 
 1. **pFedLoRA: Model-Heterogeneous Personalized Federated Learning with LoRA Tuning.** `arXiv preprint`  
-  *Yi L, Yu H, Wang G, Liu X, Li X.* 2023
+   *Yi L, Yu H, Wang G, Liu X, Li X.* [[PDF](https://arxiv.org/pdf/2310.13283)], 2023
 
 ### <img src="./fig/star.svg" width="15" height="15" /> Parameter Privacy
 
 1. **A fast, performant, secure distributed training framework for large language model.** `arXiv preprint`  
-   *Huang W, Wang Y, Cheng A, Zhou A, Yu C, Wang L.* 2024
+   *Huang W, Wang Y, Cheng A, Zhou A, Yu C, Wang L.* [[PDF](https://arxiv.org/pdf/2401.09796)], 2024
 
 2. **PrivateLoRA for efficient privacy-preserving LLM.** `arXiv preprint`  
-   *Wang Y, Lin Y, Zeng X, Zhang G.* 2023
+   *Wang Y, Lin Y, Zeng X, Zhang G.* [[PDF](https://arxiv.org/pdf/2311.14030)], 2023
 
 ## Applications of LoRA
 
