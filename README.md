@@ -72,8 +72,12 @@ Low-Rank Adaptation(LoRA), which updates the dense neural network layers with pl
 
 ## Low-Rank Adaptation
 
+1. **LoRA: Low-Rank Adaptation of Large Language Models.** `ICLR`  
+   *Edward J. Hu, Yelong Shen, Phillip Wallis, Zeyuan Allen-Zhu, Yuanzhi Li, Shean Wang, Lu Wang, Weizhu Chen* [[PDF](https://arxiv.org/abs/2106.09685)] [[Code](https://github.com/microsoft/LoRA)], 2022
+
 ### <img src="./fig/star.svg" width="15" height="15" /> Theoretical Analysis
-1. **A Kernel-Based View of Language Model Fine-Tuning.** `ICML 2023`  
+
+1. **A Kernel-Based View of Language Model Fine-Tuning.** `ICML`  
     *Malladi S., Wettig A., Yu D., Chen D., Arora S.* [[PDF](https://arxiv.org/abs/2210.05643)] [[Code](https://github.com/princeton-nlp/LM-Kernel-FT)], 2023
 
 2. **The Impact of LoRA on the Emergence of Clusters in Transformers.** `preprint`  
@@ -87,7 +91,7 @@ Low-Rank Adaptation(LoRA), which updates the dense neural network layers with pl
 
 5. **The Expressive Power of Low-Rank Adaptation.** `preprint`       
      *Zeng Y., Lee K.* [[PDF](https://arxiv.org/abs/2310.17513)] [[Code](https://github.com/UW-Madison-Lee-Lab/Expressive_Power_of_LoRA)], 2023
-    
+
 ### <img src="./fig/star.svg" width="15" height="15" /> Beyond Fine-tuning
 
 1. **ReLoRA: High-rank training through low-rank updates.** `NeurIPS Workshop`.  
