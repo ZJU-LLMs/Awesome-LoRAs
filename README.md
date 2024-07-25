@@ -296,7 +296,7 @@ Low-Rank Adaptation(LoRA), which updates the dense neural network layers with pl
 
 3. **MoCLE: Mixture of cluster-conditional LoRA experts for vision-language instruction tuning.** `preprint`
 
-   *Gou Y, Liu Z, Chen K, Hong L, Xu H, Li A, Yeung D, Kwok J T, Zhang Y.* [[PDF](https://arxiv.org/abs/2312.12379)], 2023
+   *Gou Y, Liu Z, Chen K, Hong L, Xu H, Li A, Yeung D, Kwok J T, Zhang Y.* [[PDF](https://arxiv.org/abs/2312.12379)][[Code](https://gyhdog99.github.io/projects/mocle/)], 2023
 
 4. **MOELoRA: An MoE-based parameter efficient fine-tuning method for multi-task medical applications.** `preprint`
 
@@ -476,7 +476,7 @@ Low-Rank Adaptation(LoRA), which updates the dense neural network layers with pl
 
 2. **Label Supervised LLaMA Finetuning.** `preprint`
 
-    *Li Z, Li X, Liu Y, Xie H, Li J, Wang F L, Li Q, Zhong X.* [[PDF](http://arxiv.org/abs/2310.01208v1)], 2023.
+    *Li Z, Li X, Liu Y, Xie H, Li J, Wang F L, Li Q, Zhong X.* [[PDF](http://arxiv.org/abs/2310.01208v1)][[Code](https://github.com/4AI/LS-LLaMA)], 2023.
 
 3. **Speaker Attribution in German Parliamentary Debates with QLoRA-Adapted Large Language Models.** `preprint`
 
@@ -531,13 +531,13 @@ Low-Rank Adaptation(LoRA), which updates the dense neural network layers with pl
 
 6. **Stelocoder: a decoder-only LLM for multi-language to python code translation.** `preprint`
 
-    *Pan J, Sadé A, Kim J, Soriano E, Sole G, Flamant S.* [[PDF](http://arxiv.org/abs/2310.15539v2)], 2023.
+    *Pan J, Sadé A, Kim J, Soriano E, Sole G, Flamant S.* [[PDF](http://arxiv.org/abs/2310.15539v2)][[Code](https://github.com/sade-adrien/SteloCoder)], 2023.
 
 #### Model Alignment Task
 
 1. **Perl: parameter efficient reinforcement learning from human feedback.** `preprint`
 
-    *H. Sidahmed, S. Phatale, A. Hutcheson, Z. Lin, Z. Chen, Z. Yu, J. Jin, R. Komarytsia, C. Ahlheim, Y. Zhu, S. Chaudhary, B. Li, S. Ganesh, B. Byrne, J. Hoffmann, H. Mansoor, W. Li, A. Rastogi, L. Dixon.* [[PDF](http://arxiv.org/abs/2403.10704v1)], 2024
+    *H. Sidahmed, S. Phatale, A. Hutcheson, Z. Lin, Z. Chen, Z. Yu, J. Jin, R. Komarytsia, C. Ahlheim, Y. Zhu, S. Chaudhary, B. Li, S. Ganesh, B. Byrne, J. Hoffmann, H. Mansoor, W. Li, A. Rastogi, L. Dixon.* [[PDF](http://arxiv.org/abs/2403.10704v1)][[Code](https://github.com/google-research-datasets/Taskmaster/tree/master/TM-4-2024)], 2024
 
 2. **Efficient RLHF: reducing the memory usage of PPO.** `preprint`
 
@@ -579,7 +579,8 @@ Low-Rank Adaptation(LoRA), which updates the dense neural network layers with pl
 
 3. **Clinical camel: An open-source expert-level medical language model with dialogue-based knowledge encoding.** `preprint`
 
-    *Toma A, Lawler P R, Ba J, Krishnan R G, Rubin B B, Wang B.* [[PDF](http://arxiv.org/abs/2305.12031v2)], 2023
+    *Toma A, Lawler P R, Ba J, Krishnan R G, Rubin B B, Wang B.* [[PDF](http://arxiv.org/abs/2305.12031v2)][[Code](https://github.com/bowang-lab/clinical-camel?tab=readme-ov-file
+    )], 2023
 
 4. **Suryakiran at mediqa-sum 2023: Leveraging lora for clinical dialogue summarization.** `CLEF`
 
@@ -607,7 +608,9 @@ Low-Rank Adaptation(LoRA), which updates the dense neural network layers with pl
 
 10. **Fingpt: Democratizing internet-scale data for financial large language models.** `preprint`
 
-    *Liu X, Wang G, Zha D.* [[PDF](http://arxiv.org/abs/2307.10485v2)], 2023
+    *Liu X, Wang G, Zha D.* [[PDF](http://arxiv.org/abs/2307.10485v2)][[Code](https://github.com/AI4Finance-Foundation/FinGPT
+    
+    )], 2023
 
 11. **Ra-cfgpt: Chinese financial assistant with retrievalaugmented large language model.** `Frontiers of Computer Science`
 
@@ -663,7 +666,8 @@ Low-Rank Adaptation(LoRA), which updates the dense neural network layers with pl
 
 11. **Smooth diffusion: Crafting smooth latent spaces in diffusion models.** `preprint`
 
-    *Guo J, Xu X, Pu Y, Ni Z, Wang C, Vasu M, Song S, Huang G, Shi H.* [[PDF](http://arxiv.org/abs/2312.04410v1)], 2023
+    *Guo J, Xu X, Pu Y, Ni Z, Wang C, Vasu M, Song S, Huang G, Shi H.* [[PDF](http://arxiv.org/abs/2312.04410v1)][[Code](https://github.com/SHI-Labs/Smooth-Diffusion
+    )], 2023
 
 12. **Resadapter: Domain consistent resolution adapter for diffusion models.** `preprint`
 
@@ -683,7 +687,8 @@ Low-Rank Adaptation(LoRA), which updates the dense neural network layers with pl
 
 16. **Mix-of-show: Decentralized low-rank adaptation for multi-concept customization of diffusion models.** `NeurIPS`
 
-    *Gu Y, Wang X, Wu J Z, Shi Y, Chen Y, Fan Z, Xiao W, Zhao R, Chang S, Wu W, Ge Y, Shan Y, Shou M Z.* [[PDF](http://arxiv.org/abs/2305.18292v2)][[Code](https://github.com/TencentARC/Mix-of-Show)], 2023
+    *Gu Y, Wang X, Wu J Z, Shi Y, Chen Y, Fan Z, Xiao W, Zhao R, Chang S, Wu W, Ge Y, Shan Y, Shou M Z.* [[PDF](http://arxiv.org/abs/2305.18292v2)][[Code](https://github.com/TencentARC/Mix-of-Show)][[Code](https://showlab.github.io/Mix-of-Show/
+    )], 2023
 
 17. **LCM-lora: A universal stable-diffusion acceleration module.** `preprint`
 
@@ -707,7 +712,9 @@ Low-Rank Adaptation(LoRA), which updates the dense neural network layers with pl
 
 22. **Infusion: Inject and attention fusion for multi concept zero-shot text-based video editing.** `ICCV`
 
-    *Khandelwal A.* [[PDF](http://arxiv.org/abs/2308.00135v3)], 2023
+    *Khandelwal A.* [[PDF](http://arxiv.org/abs/2308.00135v3)][[Code](https://infusion-zero-edit.github.io/
+    
+    )], 2023
 
 23. **Stable video diffusion: Scaling latent video diffusion models to large datasets.** `preprint`
 
@@ -731,7 +738,8 @@ Low-Rank Adaptation(LoRA), which updates the dense neural network layers with pl
 
 28. **As-plausible-as-possible: Plausibility-aware mesh deformation using 2d diffusion priors.** `CVPR`
 
-    *Yoo S, Kim K, Kim V G, Sung M.* [[PDF](http://arxiv.org/abs/2311.16739v1)], 2024
+    *Yoo S, Kim K, Kim V G, Sung M.* [[PDF](http://arxiv.org/abs/2311.16739v1)][[Code](https://as-plausible-as-possible.github.io/
+    )], 2024
 
 29. **Dragtex: Generative point-based texture editing on 3d mesh.** `preprint`
 
@@ -741,7 +749,8 @@ Low-Rank Adaptation(LoRA), which updates the dense neural network layers with pl
 
 1. **Samlp: A customized segment anything model for license plate detection.** `preprint`
 
-    *Ding H, Gao J, Yuan Y, Wang Q*. [[PDF](http://arxiv.org/abs/2401.06374v1)], 2024
+    *Ding H, Gao J, Yuan Y, Wang Q*. [[PDF](http://arxiv.org/abs/2401.06374v1)][[Code](https://github.com/Dinghaoxuan/SamLP
+    )], 2024
 
 2. **Sam-based instance segmentation models for the automation of structural damage detection.** `preprint`
 
@@ -753,7 +762,8 @@ Low-Rank Adaptation(LoRA), which updates the dense neural network layers with pl
 
 4. **SAM-OCTA: prompting segment-anything for OCTA image segmentation.** `preprint`
 
-    *Chen X, Wang C, Ning H, Li S*. [[PDF](http://arxiv.org/abs/2310.07183v2)], 2023
+    *Chen X, Wang C, Ning H, Li S*. [[PDF](http://arxiv.org/abs/2310.07183v2)][[Code](https://github.com/ShellRedia/SAM-OCTA
+    )], 2023
 
 5. **Cheap lunch for medical image segmentation by fine-tuning SAM on few exemplars.** `preprint`
 
@@ -787,7 +797,7 @@ Low-Rank Adaptation(LoRA), which updates the dense neural network layers with pl
 
 1. **InternLM-XComposer2: Mastering Free-Form Text-Image Composition and Comprehension in Vision-Language Large Model.** `preprint`
 
-    *Chen Z, Huang H, Andrusenko A, Hrinchuk O, Puvvada KC, Li J, Ghosh S, Balam J, Ginsburg B.* [[PDF](http://arxiv.org/abs/2401.16420v1)], 2024
+    *Chen Z, Huang H, Andrusenko A, Hrinchuk O, Puvvada KC, Li J, Ghosh S, Balam J, Ginsburg B.* [[PDF](http://arxiv.org/abs/2401.16420v1)][[Code](https://github.com/InternLM/InternLM-XComposer)], 2024
 
 2. **mPlug-OWL: Modularization Empowers Large Language Models with Multimodality.** `preprint`
 
@@ -801,7 +811,8 @@ Low-Rank Adaptation(LoRA), which updates the dense neural network layers with pl
 
 1. **Where visual speech meets language: VSP-LLM framework for efficient and context-aware visual speech processing.** `preprint`
 
-    *J. H. Yeo, S. Han, M. Kim, Y. M. Ro.* [[PDF](http://arxiv.org/abs/2402.15151v1)], 2024
+    *J. H. Yeo, S. Han, M. Kim, Y. M. Ro.* [[PDF](http://arxiv.org/abs/2402.15151v1)][[Code](https://github.com/Sally-SH/VSP-LLM
+    )], 2024
 
 2. **Molca: Molecular graph-language modeling with cross-modal projector and uni-modal adapter.** `EMNLP. `
 
