@@ -50,7 +50,7 @@ Low-Rank Adaptation(LoRA), which updates the dense neural network layers with pl
       - [Parallel Fine-tuning](#parallel-fine-tuning)
       - [Parallel Inference](#parallel-inference)
   - [LoRA for Federated Learning](#lora-for-federated-learning)
-    - [ Data Heterogeneity](#-data-heterogeneity)
+    - [Data Heterogeneity](#data-heterogeneity)
     - [ Device Heterogeneity](#-device-heterogeneity)
     - [ Model Heterogeneity](#-model-heterogeneity)
     - [ Parameter Privacy](#-parameter-privacy)
@@ -82,15 +82,12 @@ Low-Rank Adaptation(LoRA), which updates the dense neural network layers with pl
 3. **LoRA Training in the NTK Regime Has No Spurious Local Minima.** `preprint`  
     *Jang U., Lee J. D., Ryu E. K.* [[PDF](https://arxiv.org/abs/2402.11867)] [[Code](https://github.com/UijeongJang/LoRA-NTK)], 2024
 
-4. **LoRA Training in the NTK Regime Has No Spurious Local Minima.** `preprint`  
-     *Jang U., Lee J. D., Ryu E. K.* [[PDF](https://arxiv.org/abs/2402.11867)] [[Code](https://github.com/UijeongJang/LoRA-NTK)], 2024
-
-5. **Asymmetry in Low-Rank Adapters of Foundation Models.** `preprint`  
+4. **Asymmetry in Low-Rank Adapters of Foundation Models.** `preprint`  
      *Zhu J., Greenewald K. H., Nadjahi K., Ocáriz Borde d H. S., Gabrielsson R. B., Choshen L., Ghassemi M., Yurochkin M., Solomon J.* [[PDF](https://arxiv.org/abs/2402.16842)] [[Code](https://github.com/Jiacheng-Zhu-AIML/AsymmetryLoRA)], 2024
 
-6. **The Expressive Power of Low-Rank Adaptation.** `preprint`       
+5. **The Expressive Power of Low-Rank Adaptation.** `preprint`       
      *Zeng Y., Lee K.* [[PDF](https://arxiv.org/abs/2310.17513)] [[Code](https://github.com/UW-Madison-Lee-Lab/Expressive_Power_of_LoRA)], 2023
-
+    
 ### <img src="./fig/star.svg" width="15" height="15" /> Beyond Fine-tuning
 
 1. **ReLoRA: High-rank training through low-rank updates.** `NeurIPS Workshop`.  
