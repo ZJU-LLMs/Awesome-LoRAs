@@ -650,7 +650,7 @@ Low-Rank Adaptation(LoRA), which updates the dense neural network layers with pl
 
    *Kong Z, Zhang Y, Yang T, Wang T, Zhang K, Wu B, Chen G, Liu W, Luo W.* [[PDF](http://arxiv.org/abs/2403.10983v1)][[Code](https://github.com/kongzhecn/OMG)], 2024
 
-8. **Space narrative: Generating images and 3d scenes of chinese garden from text using deep learning.** `xArch–creativity in the age of digital reproduction symposium`
+8. **Space narrative: Generating images and 3d scenes of chinese garden from text using deep learning.** `preprint`
 
    *Shi J, Hua H.* [[PDF](http://arxiv.org/abs/2311.00339v1)], 2023
 
