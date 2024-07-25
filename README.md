@@ -73,62 +73,49 @@ Low-Rank Adaptation(LoRA), which updates the dense neural network layers with pl
 ## Low-Rank Adaptation
 
 ### <img src="./fig/star.svg" width="15" height="15" /> Theoretical Analysis
-1. **A Kernel-Based View of Language Model Fine-Tuning.** `ICML 2023`
-   
-    *Malladi S., Wettig A., Yu D., Chen D., Arora S.* 2023
+1. **A Kernel-Based View of Language Model Fine-Tuning.** `ICML 2023`  
+    *Malladi S., Wettig A., Yu D., Chen D., Arora S.* [[PDF](https://arxiv.org/abs/2210.05643)] [[Code](https://github.com/princeton-nlp/LM-Kernel-FT)], 2023
 
-2. **The Impact of LoRA on the Emergence of Clusters in Transformers.** `preprint`
-    *Koubbi H., Boussard M., Hernandez L.* 2024
+2. **The Impact of LoRA on the Emergence of Clusters in Transformers.** `preprint`  
+    *Koubbi H., Boussard M., Hernandez L.* [[PDF](https://arxiv.org/abs/2402.15415)] [[Code](https://github.com/HugoKoubbi/Transformers-2024-LoRA)], 2024
 
-3. **LoRA Training in the NTK Regime Has No Spurious Local Minima.** `preprint`
-   
-    *Jang U., Lee J. D., Ryu E. K.* 2024
+3. **LoRA Training in the NTK Regime Has No Spurious Local Minima.** `preprint`  
+    *Jang U., Lee J. D., Ryu E. K.* [[PDF](https://arxiv.org/abs/2402.11867)] [[Code](https://github.com/UijeongJang/LoRA-NTK)], 2024
 
-4. **A Kernel-Based View of Language Model Fine-Tuning.** `ICML 2023`
-     *Malladi S., Wettig A., Yu D., Chen D., Arora S.* 2023
+4. **LoRA Training in the NTK Regime Has No Spurious Local Minima.** `preprint`  
+     *Jang U., Lee J. D., Ryu E. K.* [[PDF](https://arxiv.org/abs/2402.11867)] [[Code](https://github.com/UijeongJang/LoRA-NTK)], 2024
 
-5. **The Impact of LoRA on the Emergence of Clusters in Transformers.** `preprint`
-   
-     *Koubbi H., Boussard M., Hernandez L.* 2024
+5. **Asymmetry in Low-Rank Adapters of Foundation Models.** `preprint`  
+     *Zhu J., Greenewald K. H., Nadjahi K., Ocáriz Borde d H. S., Gabrielsson R. B., Choshen L., Ghassemi M., Yurochkin M., Solomon J.* [[PDF](https://arxiv.org/abs/2402.16842)] [[Code](https://github.com/Jiacheng-Zhu-AIML/AsymmetryLoRA)], 2024
 
-6. **LoRA Training in the NTK Regime Has No Spurious Local Minima.** `preprint`
-   
-     *Jang U., Lee J. D., Ryu E. K.* 2024
-
-7. **Asymmetry in Low-Rank Adapters of Foundation Models.** `preprint`
-     
-     *Zhu J., Greenewald K. H., Nadjahi K., Ocáriz Borde d H. S., Gabrielsson R. B., Choshen L., Ghassemi M., Yurochkin M., Solomon J.* 2024
-
-8. **The Expressive Power of Low-Rank Adaptation.** `preprint`
-     
-     *Zeng Y., Lee K.* 2023
-
+6. **The Expressive Power of Low-Rank Adaptation.** `preprint`       
+     *Zeng Y., Lee K.* [[PDF](https://arxiv.org/abs/2310.17513)] [[Code](https://github.com/UW-Madison-Lee-Lab/Expressive_Power_of_LoRA)], 2023
 
 ### <img src="./fig/star.svg" width="15" height="15" /> Beyond Fine-tuning
 
 1. **ReLoRA: High-rank training through low-rank updates.** `NeurIPS Workshop`.  
-  *Lialin V, Muckatira S, Shivagunde N, Rumshisky A.* 2023
+  *Lialin V, Muckatira S, Shivagunde N, Rumshisky A.* [[PDF](https://arxiv.org/abs/2307.05695)] [[Code](https://github.com/Guitaricet/relora)], 2023
 
 2. **MoRA: High-rank updating for parameter-efficient fine-tuning.** `preprint`  
-  *Jiang T, Huang S, Luo S, Zhang Z, Huang H, Wei F, Deng W, Sun F, Zhang Q, Wang D, others.* 2024
+  *Jiang T, Huang S, Luo S, Zhang Z, Huang H, Wei F, Deng W, Sun F, Zhang Q, Wang D, others.* [[PDF](https://arxiv.org/abs/2405.12130)] [[Code](https://github.com/kongds/MoRA)], 2024
 
 3. **Training neural networks from scratch with parallel low-rank adapters.** `preprint`  
-  *Huh M, Cheung B, Bernstein J, Isola P, Agrawal P.* 2024
+  *Huh M, Cheung B, Bernstein J, Isola P, Agrawal P.* [[PDF](https://arxiv.org/abs/2402.16828)] [[Code](https://minyoungg.github.io/LTE/)], 2024
 
 4. **InfLoRA: Interference-free low-rank adaptation for continual learning.** `preprint`  
-   *Liang Y, Li W.* 2024
+   *Liang Y, Li W.* [[PDF](https://arxiv.org/abs/2404.00228)] [[Code](https://github.com/liangyanshuo/InfLoRA)], 2024
    
 5. **GS-LoRA: Continual forgetting for pre-trained vision models.** `preprint`  
-   *Zhao H, Ni B, Wang H, Fan J, Zhu F, Wang Y, Chen Y, Meng G, Zhang Z.* 2024
+   *Zhao H, Ni B, Wang H, Fan J, Zhu F, Wang Y, Chen Y, Meng G, Zhang Z.* [[PDF](https://arxiv.org/abs/2403.11530)] [[Code](https://github.com/bjzhb666/GS-LoRA)], 2024
 
 6. **I-LoRA: Analyzing and reducing catastrophic forgetting in parameter-efficient tuning.** `preprint`  
-   *Ren W, Li X, Wang L, Zhao T, Qin W.* 2024
+   *Ren W, Li X, Wang L, Zhao T, Qin W.* [[PDF](https://arxiv.org/abs/2402.18865)] [[Code](https://github.com/which47/LLMCL)], 2024
 
 7. **LongLoRA: Efficient fine-tuning of long-context large language models.** `preprint`  
-   *Y. Chen, S. Qian, H. Tang, X. Lai, Z. Liu, S. Han, J. Jia.* 2023
+   *Y. Chen, S. Qian, H. Tang, X. Lai, Z. Liu, S. Han, J. Jia.* [[PDF](https://arxiv.org/abs/2309.12307)] [[Code](https://github.com/dvlab-research/LongLoRA)], 2023
 
 8. **SinkLoRA: Enhanced efficiency and chat capabilities for long-context large language models.** `preprint`  
-   *Zhang H.* 2023
+   *Zhang H.* [[PDF](https://arxiv.org/abs/2406.05678)] [[Code](https://github.com/Dexter-GT-86/SinkLoRA)], 2023
 
 ## Downstream Adaptation Improving
 
@@ -142,132 +129,109 @@ Low-Rank Adaptation(LoRA), which updates the dense neural network layers with pl
 
 2. **样例Knowledge Graph Prompting for Multi-Document Question Answering.** `AAAI 2024`
 
-   *Yu Wang, Nedim Lipka, Ryan Rossi, Alex Siu, Ruiyi Zhang, Tyler Derr.* [[PDF](https://arxiv.org/abs/2308.11730)] [[Code](https://github.com/YuWVandy/KG-LLM-MDQA)], 2023.8, ![](https://img.shields.io/badge/DecoderOnly-blue) ![](https://img.shields.io/badge/LLM-red)
- -->
+   *Yu Wang, Nedim Lipka, Ryan Rossi, Alex Siu, Ruiyi Zhang, Tyler Derr.* [[PDF](https://arxiv.org/abs/2308.11730)] [[Code](https://github.com/YuWVandy/KG-LLM-MDQA)], 2023.8, ![](https://img.shields.io/badge/DecoderOnly-blue) ![](https://img.shields.io/badge/LLM-red) -->
 
-1. **ReLoRA: High-Rank Training Through Low-Rank Updates.** `NeurIPS Workshop 2023`  
-   *Lialin V., Muckatira S., Shivagunde N., Rumshisky A. 2023*
+1. **ReLoRA: High-Rank Training Through Low-Rank Updates.** `NeurIPS Workshop`  
+   *Lialin V., Muckatira S., Shivagunde N., Rumshisky A.* [[PDF](https://arxiv.org/abs/2307.05695)] [[Code](https://github.com/Guitaricet/relora)], 2023
 
 2. **Chain of LoRA: Efficient fine-tuning of language models via residual learning.** `preprint`  
-   *Xia W, Qin C, Hazan E.* 2024
+   *Xia W, Qin C, Hazan E.* [[PDF](https://arxiv.org/abs/2401.04151)], 2024
 
 3. **Mini-ensemble low-rank adapters for parameter-efficient fine-tuning.** `preprint`  
-   *Ren P, Shi C, Wu S, Zhang M, Ren Z, Rijke d M, Chen Z, Pei J.* 2024
+   *Ren P, Shi C, Wu S, Zhang M, Ren Z, Rijke d M, Chen Z, Pei J.* [[PDF](https://arxiv.org/abs/2402.17263)] [[Code](https://https://github.com/ChasonShi/MELoRA)], 2024
 
 #### Updating as gradient compressor
 
-1. **FLoRA: Low-rank adapters are secretly gradient compressors.** `preprint`
-   
-   *Hao Y, Cao Y, Mou L.* 2024
+1. **FLoRA: Low-rank adapters are secretly gradient compressors.** `preprint`  
+   *Hao Y, Cao Y, Mou L.* [[PDF](https://arxiv.org/abs/2402.03293)] [[Code](https://github.com/BorealisAI/flora-opt)], 2024
 
 #### Co-learning LLM and LoRA
 
 1. **Delta-LoRA: Fine-tuning high-rank parameters with the delta of low-rank matrices.** `preprint`
-   
-    *Zi B, Qi X, Wang L, Wang J, Wong K, Zhang L.* 2023
+    *Zi B, Qi X, Wang L, Wang J, Wong K, Zhang L.* [[PDF](https://arxiv.org/abs/2309.02411)], 2023
 
 ### <img src="./fig/star.svg" width="15" height="15" /> Dynamic Rank Allocation
 
 #### SVD-Based Methods
 
-1. **AdaLoRA: Adaptive Budget Allocation for Parameter-Efficient Fine-Tuning.** `ICLR 2023`
-   
-   *Zhang Q., Chen M., Bukharin A., He P., Cheng Y., Chen W., Zhao T. 2023*
+1. **AdaLoRA: Adaptive Budget Allocation for Parameter-Efficient Fine-Tuning.** `ICLR 2023`  
+   *Zhang Q., Chen M., Bukharin A., He P., Cheng Y., Chen W., Zhao T. [[PDF](https://arxiv.org/abs/2303.10512)] [[Code](https://github.com/QingruZhang/AdaLoRA)], 2023*
 
-2. **SaLoRA: Structure-aware low-rank adaptation for parameter-efficient fine-tuning.** `Mathematics`
+2. **SaLoRA: Structure-aware low-rank adaptation for parameter-efficient fine-tuning.** `Mathematics`  
+    *Hu Y, Xie Y, Wang T, Chen M, Pan Z.* [[PDF](https://www.mdpi.com/2227-7390/11/20/4317)], 2023
 
-    *Hu Y, Xie Y, Wang T, Chen M, Pan Z.* 2023
-
-3. **IncreLoRA: Incremental Parameter Allocation Method for Parameter-Efficient Fine-Tuning.** `preprint`
-   
-   *Zhang F., Li L., Chen J., Jiang Z., Wang B., Qian Y. 2023*
+3. **IncreLoRA: Incremental Parameter Allocation Method for Parameter-Efficient Fine-Tuning.** `preprint`  
+   *Zhang F., Li L., Chen J., Jiang Z., Wang B., Qian Y. [[PDF](https://arxiv.org/abs/2308.12043)] [[Code](https://github.com/FeiyuZhang98/IncreLoRA)], 2023*
 
 #### SRD-Based Methods
 
-1. **DoRA: Enhancing parameter-efficient fine-tuning with dynamic rank distribution.** `preprint`
- 
-    *Mao Y, Huang K, Guan C, Bao G, Mo F, Xu J.* 2024
+1. **DoRA: Enhancing parameter-efficient fine-tuning with dynamic rank distribution.** `preprint`  
+    *Mao Y, Huang K, Guan C, Bao G, Mo F, Xu J.* [[PDF](https://arxiv.org/abs/2405.17357)] [[Code](https://github.com/MIkumikumi0116/DoRA)], 2024
 
-2. **AutoLoRA: Automatically tuning matrix ranks in low-rank adaptation based on meta learning.** `preprint`
+2. **AutoLoRA: Automatically tuning matrix ranks in low-rank adaptation based on meta learning.** `preprint`  
+    *Zhang R, Qiang R, Somayajula S A, Xie P.* [[PDF](https://arxiv.org/abs/2403.09113)], 2024
 
-    *Zhang R, Qiang R, Somayajula S A, Xie P.* 2024
+3. **SoRA: Sparse low-rank adaptation of pre-trained language models.** `EMNLP`  
+    *Ding N, Lv X, Wang Q, Chen Y, Zhou B, Liu Z, Sun M.* [[PDF](https://arxiv.org/abs/2311.11696)] [[Code](https://github.com/TsinghuaC3I/SoRA)], 2023
 
-3. **SoRA: Sparse low-rank adaptation of pre-trained language models.** `EMNLP`
-
-    *Ding N, Lv X, Wang Q, Chen Y, Zhou B, Liu Z, Sun M.* 2023
-
-4. **ALoRA: Allocating low-rank adaptation for fine-tuning large language models.** `preprint`
-
-    *Liu Z, Lyn J, Zhu W, Tian X, Graham Y.* 2024
+4. **ALoRA: Allocating low-rank adaptation for fine-tuning large language models.** `preprint`  
+    *Liu Z, Lyn J, Zhu W, Tian X, Graham Y.* [[PDF](https://arxiv.org/abs/2403.16187)], 2024
 
 #### Rank Sampling-Based Methods
 
-1. **DyLoRA: Parameter-Efficient Tuning of Pre-trained Models Using Dynamic Search-Free Low-Rank Adaptation.** `EACL 2023`
-    
-   *Valipour M., Rezagholizadeh M., Kobyzev I., Ghodsi A. 2023*
+1. **DyLoRA: Parameter-Efficient Tuning of Pre-trained Models Using Dynamic Search-Free Low-Rank Adaptation.** `EACL 2023`  
+   *Valipour M., Rezagholizadeh M., Kobyzev I., Ghodsi A. [[PDF](https://arxiv.org/abs/2210.07558)] [[Code](https://github.com/huawei-noah/Efficient-NLP/tree/main/DyLoRA)], 2023*
 
 ### <img src="./fig/star.svg" width="15" height="15" /> Optimizing the Learning Procedure
 
 #### Initialization Improvement
 
-1. **The impact of initialization on LoRA finetuning dynamics.** `preprint`
-   
-   *Hayou S, Ghosh N, Yu B.* 2024
+1. **The impact of initialization on LoRA finetuning dynamics.** `preprint`     
+   *Hayou S, Ghosh N, Yu B.* [[PDF](https://arxiv.org/abs/2406.08447)], 2024
 
 2. **PISSA: Principal singular values and singular vectors adaptation of large language models.** `preprint`
 
-   *Meng F, Wang Z, Zhang M.* 2024
+   *Meng F, Wang Z, Zhang M.* [[PDF](https://arxiv.org/abs/2404.02948)] [[Code](https://github.com/GraphPKU/PiSSA)], 2024
 
-4. **MiLoRA: Harnessing minor singular components for parameter-efficient LLM finetuning.** `preprint`
-
-   *Wang H, Xiao Z, Li Y, Wang S, Chen G, Chen Y.* 2024
+4. **MiLoRA: Harnessing minor singular components for parameter-efficient LLM finetuning.** `preprint`  
+   *Wang H, Xiao Z, Li Y, Wang S, Chen G, Chen Y.* [[PDF](https://arxiv.org/abs/2406.09044)], 2024
 
 #### Gradient Update Optimization
 
-1. **Riemannian preconditioned LoRA for fine-tuning foundation models.** `preprint`
+1. **Riemannian preconditioned LoRA for fine-tuning foundation models.** `preprint`  
+   *Zhang F, Pilanci M.* [[PDF](https://arxiv.org/abs/2402.02347)] [[Code](https://github.com/pilancilab/Riemannian_Preconditioned_LoRA)], 2024
 
-   *Zhang F, Pilanci M.* 2024
+2. **LoRA+: Efficient low rank adaptation of large models.** `preprint`  
+   *Hayou S, Ghosh N, Yu B.* [[PDF](https://arxiv.org/abs/2402.12354)] [[Code](https://github.com/nikhil-ghosh-berkeley/loraplus)], 2024
 
-2. **LoRA+: Efficient low rank adaptation of large models.** `preprint`
+3. **ResLoRA: Identity residual mapping in low-rank adaption.** `preprint`  
+   *Shi S, Huang S, Song M, Li Z, Zhang Z, Huang H, Wei F, Deng W, Sun F, Zhang Q.* [[PDF](https://arxiv.org/abs/2402.18039)] [[Code](https://github.com/microsoft/LMOps/tree/main/reslora)], 2024
 
-   *Hayou S, Ghosh N, Yu B.* 2024
-
-3. **ResLoRA: Identity residual mapping in low-rank adaption.** `preprint`
-    
-   *Shi S, Huang S, Song M, Li Z, Zhang Z, Huang H, Wei F, Deng W, Sun F, Zhang Q.* 2024
-
-4. **SIBO: A simple booster for parameter-efficient fine-tuning.** `preprint`
-
-   *Wen Z, Zhang J, Fang Y.* 2024
+4. **SIBO: A simple booster for parameter-efficient fine-tuning.** `preprint`  
+   *Wen Z, Zhang J, Fang Y.* [[PDF](https://arxiv.org/abs/2402.11896)], 2024
 
 #### Overfitting Mitigation
 
-1. **BiLoRA: A bi-level optimization framework for overfitting-resilient low-rank adaptation of large pre-trained models.** `preprint`
+1. **BiLoRA: A bi-level optimization framework for overfitting-resilient low-rank adaptation of large pre-trained models.** `preprint`  
+   *Qiang R, Zhang R, Xie P.* [[PDF](https://arxiv.org/abs/2403.13037)], 2024
 
-   *Qiang R, Zhang R, Xie P.* 2024
+2. **LoRA dropout as a sparsity regularizer for overfitting control.** `preprint`  
+   *Lin Y, Ma X, Chu X, Jin Y, Yang Z, Wang Y, Mei H.* [[PDF](https://arxiv.org/abs/2404.09610)], 2024
 
-2. **LoRA dropout as a sparsity regularizer for overfitting control.** `preprint`
-
-   *Lin Y, Ma X, Chu X, Jin Y, Yang Z, Wang Y, Mei H.* 2024
-
-3. **LoRA meets dropout under a unified framework.** `preprint`
-
-   *Wang S, Chen L, Jiang J, Xue B, Kong L, Wu C.* 2024
+3. **LoRA meets dropout under a unified framework.** `preprint`  
+   *Wang S, Chen L, Jiang J, Xue B, Kong L, Wu C.* [[PDF](https://arxiv.org/abs/2403.00812)] [[Code](https://github.com/TsinghuaC3I/SoRA)], 2024
 
 ### <img src="./fig/star.svg" width="15" height="15" /> Combining with other Learning Paradigms
 
-1. **Laplace-LoRA: Bayesian low-rank adaptation for large language models.** `preprint`
+1. **Laplace-LoRA: Bayesian low-rank adaptation for large language models.** `preprint`  
+   *Yang A X, Robeyns M, Wang X, Aitchison L.* [[PDF](https://arxiv.org/abs/2308.13111)] [[Code](https://github.com/adamxyang/laplace-lora)], 2023
 
-   *Yang A X, Robeyns M, Wang X, Aitchison L.* 2023
+2. **PILLOW: Enhancing efficient instruction fine-tuning via prompt matching.** `EMNLP`  
+   *Qi Z, Tan X, Shi S, Qu C, Xu Y, Qi Y.* [[PDF](https://arxiv.org/abs/2312.05621)], 2023
 
-2. **PILLOW: Enhancing efficient instruction fine-tuning via prompt matching.** `EMNLP`
-
-   *Qi Z, Tan X, Shi S, Qu C, Xu Y, Qi Y.* 2023
-
-3. **STAR: Constraint LoRA with dynamic active learning for data-efficient fine-tuning of large language models.** `preprint`
-
-   *Zhang L, Wu J, Zhou D, Xu G.* 2024
-
+3. **STAR: Constraint LoRA with dynamic active learning for data-efficient fine-tuning of large language models.** `preprint`  
+   *Zhang L, Wu J, Zhou D, Xu G.* [[PDF](https://arxiv.org/abs/2403.01165)] [[Code](https://github.com/callanwu/STAR)], 2024
+    
 ## Cross-task Generalization
 
 ### <img src="./fig/star.svg" width="15" height="15" /> Mixture with Manually Designed Weights
