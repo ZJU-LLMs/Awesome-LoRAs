@@ -608,9 +608,7 @@ Low-Rank Adaptation(LoRA), which updates the dense neural network layers with pl
 
 10. **Fingpt: Democratizing internet-scale data for financial large language models.** `preprint`
 
-    *Liu X, Wang G, Zha D.* [[PDF](http://arxiv.org/abs/2307.10485v2)][[Code](https://github.com/AI4Finance-Foundation/FinGPT
-    
-    )], 2023
+    *Liu X, Wang G, Zha D.* [[PDF](http://arxiv.org/abs/2307.10485v2)][[Code](https://github.com/AI4Finance-Foundation/FinGPT)], 2023
 
 11. **Ra-cfgpt: Chinese financial assistant with retrievalaugmented large language model.** `Frontiers of Computer Science`
 
@@ -687,8 +685,7 @@ Low-Rank Adaptation(LoRA), which updates the dense neural network layers with pl
 
 16. **Mix-of-show: Decentralized low-rank adaptation for multi-concept customization of diffusion models.** `NeurIPS`
 
-    *Gu Y, Wang X, Wu J Z, Shi Y, Chen Y, Fan Z, Xiao W, Zhao R, Chang S, Wu W, Ge Y, Shan Y, Shou M Z.* [[PDF](http://arxiv.org/abs/2305.18292v2)][[Code](https://github.com/TencentARC/Mix-of-Show)][[Code](https://showlab.github.io/Mix-of-Show/
-    )], 2023
+    *Gu Y, Wang X, Wu J Z, Shi Y, Chen Y, Fan Z, Xiao W, Zhao R, Chang S, Wu W, Ge Y, Shan Y, Shou M Z.* [[PDF](http://arxiv.org/abs/2305.18292v2)][[Code](https://github.com/TencentARC/Mix-of-Show)], 2023
 
 17. **LCM-lora: A universal stable-diffusion acceleration module.** `preprint`
 
@@ -712,9 +709,7 @@ Low-Rank Adaptation(LoRA), which updates the dense neural network layers with pl
 
 22. **Infusion: Inject and attention fusion for multi concept zero-shot text-based video editing.** `ICCV`
 
-    *Khandelwal A.* [[PDF](http://arxiv.org/abs/2308.00135v3)][[Code](https://infusion-zero-edit.github.io/
-    
-    )], 2023
+    *Khandelwal A.* [[PDF](http://arxiv.org/abs/2308.00135v3)][[Code](https://infusion-zero-edit.github.io/)], 2023
 
 23. **Stable video diffusion: Scaling latent video diffusion models to large datasets.** `preprint`
 
