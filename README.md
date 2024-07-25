@@ -446,7 +446,7 @@ Low-Rank Adaptation(LoRA), which updates the dense neural network layers with pl
    *Wu P, Li K, Wang T, Wang F.* [[PDF](https://arxiv.org/pdf/2312.15926)], 2023
 
 2. **Federated fine-tuning of large language models under heterogeneous language tasks and client resources.** `arXiv preprint`  
-   *Bai J, Chen D, Qian B, Yao L, Li Y.* [[PDF](https://arxiv.org/pdf/2402.11505)], 2024
+*Bai J, Chen D, Qian B, Yao L, Li Y.* [[PDF](https://arxiv.org/pdf/2402.11505)] [[Code](https://github.com/alibaba/FederatedScope/tree/FlexLoRA)], 2024
 
 3. **Heterogeneous LoRA for federated fine-tuning of on-device foundation models.** `NeurIPS`  
    *Cho Y J, Liu L, Xu Z, Fahrezi A, Barnes M, Joshi G.* [[PDF](https://openreview.net/pdf?id=EmV9sGpZ7q)], 2023
