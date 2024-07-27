@@ -313,7 +313,7 @@ Low-Rank Adaptation(LoRA), which updates the dense neural network layers with pl
 13. **Fast LoRA: Batched low-rank adaptation of foundation models.** `arXiv`  
     *Wen Y, Chaudhuri S.* [[PDF](https://arxiv.org/abs/2312.05677)], 2023
 
-14. **I-LoRA: Analyzing and reducing catastrophic forgetting in parameter-efficient tuning.** `arXiv`
+14. **I-LoRA: Analyzing and reducing catastrophic forgetting in parameter-efficient tuning.** `arXiv`  
     *Ren W, Li X, Wang L, Zhao T, Qin W.* [[PDF](https://arxiv.org/abs/2402.18865)] [[Code](https://github.com/which47/LLMCL)], 2024
 
 ## Efficiency Improving
