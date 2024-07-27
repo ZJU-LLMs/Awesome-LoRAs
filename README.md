@@ -72,8 +72,7 @@ Low-Rank Adaptation(LoRA), which updates the dense neural network layers with pl
 
 ## Low-Rank Adaptation
 
-1. **LoRA: Low-Rank Adaptation of Large Language Models.** `ICLR`
-   
+1. **LoRA: Low-Rank Adaptation of Large Language Models.** `ICLR`  
    *Edward J. Hu, Yelong Shen, Phillip Wallis, Zeyuan Allen-Zhu, Yuanzhi Li, Shean Wang, Lu Wang, Weizhu Chen* [[PDF](https://arxiv.org/abs/2106.09685)] [[Code](https://github.com/microsoft/LoRA)], 2022
 
 ### <img src="./fig/star.svg" width="15" height="15" /> Theoretical Analysis
