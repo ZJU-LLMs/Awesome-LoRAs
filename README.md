@@ -196,6 +196,9 @@ Low-Rank Adaptation(LoRA), which updates the dense neural network layers with pl
 4. **MiLoRA: Harnessing minor singular components for parameter-efficient LLM finetuning.** `arXiv`  
    *Wang H, Xiao Z, Li Y, Wang S, Chen G, Chen Y.* [[PDF](https://arxiv.org/abs/2406.09044)], 2024
 
+5. **Mixture-of-Subspaces in Low-Rank Adaptation.** `arXiv`  
+   *Wu T, Wang J, Zhao Z, Wong N* [[PDF](https://arxiv.org/abs/2406.11909)] [[Code](https://github.com/wutaiqiang/MoSLoRA/)], 2024
+
 #### Gradient Update Optimization
 
 1. **Riemannian preconditioned LoRA for fine-tuning foundation models.** `arXiv`  
